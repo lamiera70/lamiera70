@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina prova</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom CSS -->
+    
+    <link rel="stylesheet" href="styles/cocktail.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="cocktail.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Seleziona link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="cocktail.html">Cocktail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container-fluid p-3 bg-primary text-white">
+            <h1>MASI Software</h1>
+            <p>Applicazioni Web</p>
+        </div>
+
+    </header>
+
+    <section>
+
+        <!-- intestazione -->
+
+        <div class="container-fluid bg-black text-white p-3 text-center ">
+            <h1>The Cocktails</h1>
+        </div>
+
+        <!-- contenuto pagina principale -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <div class="input-group mb-3">
+                        <input type="text" id="pwd" class="form-control" placeholder="cerca il cocktail">
+                        <button id="btn-cerca" class="btn btn-primary" type="button">cerca</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <select class="form-select" id="seleziona">
+                        <option>seleziona il cocktail</option>
+                        <option value="Mojito">Mojito</option>
+                        <option value="Bellini">Bellini</option>
+                        <option value="Aperol">Aperol Spritz</option>
+                        <option value="Garibaldi">Garibaldi</option>
+                        <option value="Bloody Mary">Bloody Mary</option>
+                        <option value="Manhattan">Manhattan</option>
+                        <option value="Alexander">Alexander</option>
+                        <option value="Gin Lemon">Gin Lemon</option>
+                    </select>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container mt-5 ">
+            <div id="card" class="row">
+
+
+                <!-- creato dinamicamente nel js -->
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid bg-black text-white p-1 mt-5 ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="mailto:info@masisoftware.it">@Contatti</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="scripts/cocktail.js"></script>
+
+</body>
+
+</html>
