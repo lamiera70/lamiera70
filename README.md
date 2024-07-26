@@ -65,9 +65,9 @@
 
 ###
 
-* <p align="left">connect with me on <a href="https://www.linkedin.com/in/lamiera/">Linkedin</a><br></p>
+* <p align="left">Connect with me on <a href="https://www.linkedin.com/in/lamiera/">Linkedin</a><br></p>
 
-* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70/commits?author=lamiera70">GitHub</a><br></p>
+* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70/">GitHub</a><br></p>
 
 
 
