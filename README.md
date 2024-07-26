@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Alessandro and I'm a sofrware developer from Italy</p>
+<p align="left">My name is Alessandro and I'm a SOFTWARE DEVELOPER from Italy</p>
 
 ###
 
@@ -65,8 +65,9 @@
 
 ###
 
-<p align="left">connect with me on Linkedin<br>watch my GitHub</p>
+* <p align="left">connect with me on [Linkedin]<br></p>
 
+* <p align="left">watch my [GitHub]<br></p>
 ###
 
 <div align="center">
