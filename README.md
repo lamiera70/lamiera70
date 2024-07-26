@@ -65,7 +65,7 @@
 
 ###
 
-* <p align="left">connect with me on [Linkedin]<br></p>
+* <p align="left">connect with me on [Linkedin](https://github.com/lamiera70/lamiera70)<br></p>
 
 * <p align="left">watch my [GitHub]<br></p>
 ###
