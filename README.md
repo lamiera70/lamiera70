@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Alessandro and I'm a SOFTWARE DEVELOPER from Italy</p>
+<p align="left">My name is Alessandro and I'm a WEB DEVELOPER from Italy</p>
 
 ###
 
