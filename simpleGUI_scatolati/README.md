@@ -1,4 +1,4 @@
-<h1 align="left">Calcolo scatolati</h1>
+<h1 align="left">simpleGUI_scatolati</h1>
 
 ###
 
@@ -11,11 +11,11 @@
 
 ###
 
-<p align="left">Le barre commerciali sono impostate da 6 metri<br>mentre i particolari sono espressi in millimetri</p>
+<p align="left">Le barre commerciali sono impostate da 6 metri e possono essere profilati di scatolato, piatto, tubo, ecc...<br>mentre i particolari sono espressi in millimetri</p>
 
 ###
 
-<h2 align="left">I code with</h2>
+
 
 ###
 
