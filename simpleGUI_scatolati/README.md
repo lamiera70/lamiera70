@@ -1,16 +1,17 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">Calcolo scatolati</h1>
 
 ###
 
-<p align="left">My name is Alessandro and I'm a WEB DEVELOPER from Italy</p>
+<p align="left">Questa APP permette di calcolare il numero di barre commerciali da 6 Metri</p>
+<p align="left">necessarie per ottenere il numero di particolari richiesti</p>
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">Piccolo esempio</h2>
 
 ###
 
-<p align="left">Mi piace creare web app per riuscire a ottimizzare e automatizzare i miei processi lavorativi.<br>Sono pronto a mettermi in gioco per crescere professionalmente anche in altre mansioni, con la sicurezza e la voglia di imparare in tempi brevi.</p>
+<p align="left">Le barre commerciali sono impostate da 6 metri<br>mentre i particolari sono espressi in millimetri</p>
 
 ###
 
