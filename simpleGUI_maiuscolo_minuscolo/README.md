@@ -1,8 +1,8 @@
-<h1 align="left">SimpleGUI_scatolati</h1>
+<h1 align="left">SimpleGUI_maiuscolo_minuscolo</h1>
 
 ###
 
-<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
+<p align="left">Questa APP permette di modificare del testo da maiuscolo in minuscolo e viceversa</p>
 
 ###
 
@@ -11,12 +11,12 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_scatolati/scatolati.jpg?raw=true" alt="scatolati">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_maiuscolo_minuscolo/gui_maiuscolo.jpg?raw=true" alt="maiuscolo_minuscolo">
 </div>
 
 ###
 
-<p align="left">Qui ho caricato una lista di pezzi da tagliare:<br>N. 2 L=2500<br>N. 3 L=500<br>N. 4 L=300<br>N. 4 L=1250<br>Come risultato ottengo che devo acquistare N.3 barre commerciali da 6 metri caduna per ricavare i pezzi da tagliare</p>
+<p align="left">Semplicemente puoi fare copia e incolla di una parte di testo desiderato e inserirlo nella finestra di sinistra<br>Successivamente cliccando sul bottone "MAIUSCOLO" o "MINUSCOLO" nella finestra di destra puoi visualizzare il testo modificato</p>
 
 ###
 ###
