@@ -1,8 +1,8 @@
-<h1 align="left">SimpleGUI_scatolati</h1>
+<h1 align="left">The Cocktail</h1>
 
 ###
 
-<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
+<p align="left">Creazione pagina WEB di ricerca COCKTAIL creata dinamicamente tramite una FETCH API con JAVASCRIPT</p>
 
 ###
 
