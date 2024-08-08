@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/tree/main/simpleGUI_scatolati/scatolati.jpg" alt="scatolati">
+  <img src="https://github.com/lamiera70/lamiera70/tree/main/simpleGUI_scatolati/scatolati.png" alt="scatolati">
 </div>
 
 ###
