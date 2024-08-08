@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  ![Markdown Plus](https://github.com/lamiera70/lamiera70/tree/main/simpleGUI_scatolati/scatolati.jpg)
+  <img src="https://github.com/lamiera70/lamiera70/tree/main/simpleGUI_scatolati/scatolati.jpg" alt="scatolati">
 </div>
 
 ###
