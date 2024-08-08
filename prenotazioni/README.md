@@ -22,11 +22,20 @@
 
 <p align="left">La pagina WEB si apre con la visualizzazione di CARDS BOOTSTRAP create dinamicamante con JAVASCRIPT<br> e i dati vengono caricati da un DATABASE SQLITE3 tramite SQLALCHEMY</p>
 
+
+###
+
+<h2 align="left"></h2>
+
 ###
 
 <p align="left">Cliccando sul bottone "PRENOTA" viene richiesto il LOGIN</p>
 
 ###
+
+###
+
+<h2 align="left"></h2>
 
 ###
 
@@ -37,6 +46,11 @@
 ###
 
 <p align="left">Quindi viene caricata la pagina delle modifiche prenotazioni</p>
+
+
+###
+
+<h2 align="left"></h2>
 
 ###
 
