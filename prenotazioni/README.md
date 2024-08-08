@@ -32,11 +32,7 @@
 
 ###
 
-###
-
 <p align="left">Quindi viene caricata la pagina delle modifiche prenotazioni</p>
-
-###
 
 ###
 
