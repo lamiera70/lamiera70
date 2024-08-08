@@ -1,9 +1,8 @@
-<h1 align="left">simpleGUI_scatolati</h1>
+<h1 align="left">SimpleGUI_scatolati</h1>
 
 ###
 
-<p align="left">Questa APP permette di calcolare il numero di barre commerciali da 6 Metri</p>
-<p align="left">necessarie per ottenere il numero di particolari richiesti</p>
+<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
 
 ###
 
@@ -11,50 +10,15 @@
 
 ###
 
-<p align="left">Le barre commerciali sono impostate da 6 metri e possono essere profilati di scatolato, piatto, tubo, ecc...<br>mentre i particolari sono espressi in millimetri</p>
-
-###
-
-
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="40" alt="sqlalchemy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+<div align="center">
+  <img height="200" src="https://github.com/lamiera70/lamiera70/tree/main/simpleGUI_scatolati/scatolati.jpg"  />
 </div>
 
 ###
 
-<h2 align="left">Other tool</h2>
+<p align="left">Qui ho caricato una lista di pezzi da tagliare:<br>N. 2 L=2500<br>N. 3 L=500<br>N. 4 L=300<br>N. 4 L=1250<br>Come risultato ottengo che devo acquistare N.3 barre commerciali da 6 metri caduna per ricavare i pezzi da tagliare</p>
 
 ###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-</div>
-
 ###
 
 <div align="left">
