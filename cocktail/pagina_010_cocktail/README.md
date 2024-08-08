@@ -11,12 +11,12 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_scatolati/scatolati.jpg?raw=true" alt="scatolati">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/cocktail/pagina_010_cocktail/cocktail.jpg?raw=true" alt="cocktail">
 </div>
 
 ###
 
-<p align="left">Qui ho caricato una lista di pezzi da tagliare:<br>N. 2 L=2500<br>N. 3 L=500<br>N. 4 L=300<br>N. 4 L=1250<br>Come risultato ottengo che devo acquistare N.3 barre commerciali da 6 metri caduna per ricavare i pezzi da tagliare</p>
+<p align="left">La pagina WEB si apre con la presentazione di N. 25 COCKTAILS tramite delle CARDS BOOTSTRAP<br>Le CARDS sono create dinamicamante con JAVASCRIPT e i dati vengono caricati tramite una FETCH API</p>
 
 ###
 ###
