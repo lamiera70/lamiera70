@@ -1,8 +1,8 @@
-<h1 align="left">SimpleGUI_scatolati</h1>
+<h1 align="left">SimpleGUI_shape</h1>
 
 ###
 
-<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
+<p align="left">Questa APP permette di calcolare l'area e il perimetro di figure geometriche di base</p>
 
 ###
 
@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_scatolati/scatolati.jpg?raw=true" alt="scatolati">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_shape/gui_shape.jpg?raw=true" alt="gui_shape">
 </div>
 
 ###
