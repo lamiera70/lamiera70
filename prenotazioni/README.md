@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">La pagina WEB si apre con la presentazione di N. 25 COCKTAILS tramite delle CARDS BOOTSTRAP<br>Le CARDS sono create dinamicamante con JAVASCRIPT e i dati vengono caricati tramite una FETCH API</p>
+<p align="left">La pagina WEB si apre con la visualizzazione di CARDS BOOTSTRAP create dinamicamante con JAVASCRIPT e i dati vengono caricati da un DATABASE SQLITE3 tramite SQLALCHEMY</p>
 
 ###
 ###
