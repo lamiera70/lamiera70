@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questa APP permette di calcolare l'area e il perimetro di figure geometriche di base</p>
+<p align="left">Questa APP permette di calcolare l'area di figure geometriche di base</p>
 
 ###
 
@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">Qui ho caricato una lista di pezzi da tagliare:<br>N. 2 L=2500<br>N. 3 L=500<br>N. 4 L=300<br>N. 4 L=1250<br>Come risultato ottengo che devo acquistare N.3 barre commerciali da 6 metri caduna per ricavare i pezzi da tagliare</p>
+<p align="left">Selezionare la figura geometrica desiderata<br>Impostare le misure della base e dell'altezza e cliccare sul bottone "CALCOLA TRIANGOLO" per visualizzare il risultato dell'area</p>
 
 ###
 
