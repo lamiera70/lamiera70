@@ -1,8 +1,8 @@
-<h1 align="left">The Cocktail</h1>
+<h1 align="left">Prodotti BIO</h1>
 
 ###
 
-<p align="left">Creazione pagina WEB di ricerca COCKTAIL creata dinamicamente tramite una FETCH API con JAVASCRIPT</p>
+<p align="left">Creazione pagina WEB per la prenotazione dinamica di prodotti BIO con DATABASE SQLITE3 Python Flask Sqlalchemy e Javascript</p>
 
 ###
 
