@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/cocktail/pagina_010_cocktail/cocktail.jpg?raw=true" alt="cocktail">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio.jpg?raw=true" alt="cocktail">
 </div>
 
 ###
