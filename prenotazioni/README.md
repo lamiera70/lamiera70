@@ -45,9 +45,6 @@
   <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio_modifica_prenotazione.jpg?raw=true" alt="modifiche_bio">
 </div>
 
-###" alt="login_bio">
-</div>
-
 ###
 
 <div align="left">
