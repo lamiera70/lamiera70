@@ -16,6 +16,10 @@
 
 ###
 
+<h2 align="left"></h2>
+
+###
+
 <p align="left">La pagina WEB si apre con la visualizzazione di CARDS BOOTSTRAP create dinamicamante con JAVASCRIPT<br> e i dati vengono caricati da un DATABASE SQLITE3 tramite SQLALCHEMY</p>
 
 ###
