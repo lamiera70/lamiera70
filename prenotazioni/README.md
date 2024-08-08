@@ -11,14 +11,25 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio.jpg?raw=true" alt="cocktail">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio.jpg?raw=true" alt="prodotti_bio">
 </div>
 
 ###
 
-<p align="left">La pagina WEB si apre con la visualizzazione di CARDS BOOTSTRAP create dinamicamante con JAVASCRIPT e i dati vengono caricati da un DATABASE SQLITE3 tramite SQLALCHEMY</p>
+<p align="left">La pagina WEB si apre con la visualizzazione di CARDS BOOTSTRAP create dinamicamante con JAVASCRIPT<br> e i dati vengono caricati da un DATABASE SQLITE3 tramite SQLALCHEMY</p>
 
 ###
+
+<p align="left">Cliccando sul bottone "PRENOTA" viene richiesto il LOGIN</p>
+
+###
+
+###
+
+<div align="center">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio_login.jpg?raw=true" alt="login_bio">
+</div>
+
 ###
 
 <div align="left">
