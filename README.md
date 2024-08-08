@@ -1,58 +1,22 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">SimpleGUI_scatolati</h1>
 
 ###
 
-<p align="left">My name is Alessandro and I'm a WEB DEVELOPER from Italy</p>
+<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">Piccolo esempio</h2>
 
 ###
 
-<p align="left">Mi piace creare web app per riuscire a ottimizzare e automatizzare i miei processi lavorativi.<br>Sono pronto a mettermi in gioco per crescere professionalmente anche in altre mansioni, con la sicurezza e la voglia di imparare in tempi brevi.</p>
-
-###
-
-<h2 align="left">I code with</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="40" alt="sqlalchemy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+<div align="center">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/simpleGUI_scatolati/scatolati.jpg?raw=true" alt="scatolati">
 </div>
 
 ###
 
-<h2 align="left">Other tool</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-</div>
+<p align="left">Qui ho caricato una lista di pezzi da tagliare:<br>N. 2 L=2500<br>N. 3 L=500<br>N. 4 L=300<br>N. 4 L=1250<br>Come risultato ottengo che devo acquistare N.3 barre commerciali da 6 metri caduna per ricavare i pezzi da tagliare</p>
 
 ###
 
