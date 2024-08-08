@@ -34,17 +34,15 @@
 
 ###
 
-<p align="left">Quindi si viene caricata la pagina delle modifiche prenotazioni</p>
+<p align="left">Quindi viene caricata la pagina delle modifiche prenotazioni</p>
 
 ###
 
 ###
 
-<div align="center">
-  <img src="###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio_login.jpg?raw=true" alt="modifiche_bio">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/prenotazioni/prodotti_bio_modifica_prenotazione.jpg?raw=true" alt="modifiche_bio">
 </div>
 
 ###" alt="login_bio">
