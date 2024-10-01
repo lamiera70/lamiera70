@@ -26,8 +26,6 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 Web Site : https://www.masisoftware.it/
 
-Git Hub : https://github.com/lamiera70/lamiera70</p>
-
 ###
 
 <h2 align="left">I code with</h2>
