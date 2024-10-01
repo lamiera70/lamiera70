@@ -10,7 +10,23 @@
 
 ###
 
-<p align="left">Mi piace creare web app per riuscire a ottimizzare e automatizzare i miei processi lavorativi.<br>Sono pronto a mettermi in gioco per crescere professionalmente anche in altre mansioni, con la sicurezza e la voglia di imparare in tempi brevi.</p>
+<p align="left">Attualmente lavoro in una carpenteria meccanica con la mansione di impiegato tecnico.
+
+La programmazione è stata da sempre la mia passione e vorrei trasferire questa mia passione in un lavoro reale.
+
+Mi piace creare web app per riuscire a ottimizzare e automatizzare i miei processi lavorativi.
+
+Ho finito da poco un corso di Tecnico di Sviluppo Software di 300 ore alla Scuola Camerana di Torino.
+
+Ho imparato le basi di HTML , CSS, JAVASCRIPT, BOOTSTRAP 5, PYTHON , FLASK E SQLITE
+
+Durante questo corso sono riuscito a sviluppare una WEB APP completa per la gestione di prodotti biologici sia FRONT-END che BACK-END visionabile sul mio GITHUB.
+
+Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
+
+Web Site : https://www.masisoftware.it/
+
+Git Hub : https://github.com/lamiera70/lamiera70</p>
 
 ###
 
