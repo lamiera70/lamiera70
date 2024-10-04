@@ -87,7 +87,7 @@ GITHUB : https://github.com/lamiera70/lamiera70
 
 * <p align="left">Watch my <a href="https://www.masisoftware.it/">Web Site</a><br></p>
 
-* <p align="left">Watch my <a href="mailto:info@masisoftware.it">info@masisoftware.it</a><br></p>
+* <p align="left">@mail <a href="mailto:info@masisoftware.it">info@masisoftware.it</a><br></p>
 
 
 ###
