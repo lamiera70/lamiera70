@@ -22,7 +22,7 @@ Ho imparato le basi di HTML , CSS, JAVASCRIPT, BOOTSTRAP 5, PYTHON , FLASK E SQL
 
 Durante questo corso sono riuscito a sviluppare una WEB APP completa per la gestione di prodotti biologici sia FRONT-END che BACK-END visionabile sul mio GITHUB.
 
-Attualmente sto frequentando un corso ON-LINE di REACT.JS di 100 ore che mi ha gia' permesso di creare delle piccole WEB APP (vedi link sotto di NETLIFY)
+Attualmente sto frequentando un corso di REACT.JS di 100 ore che mi ha gia' permesso di creare delle piccole WEB APP (vedi link sotto di NETLIFY)
 
 Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
 
