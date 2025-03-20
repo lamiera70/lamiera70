@@ -26,7 +26,6 @@ Attualmente sto frequentando un corso di REACT.JS di 100 ore che mi ha gia' perm
 
 Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
 
-Web Site : https://www.masisoftware.it/
 
 GITHUB : https://github.com/lamiera70/lamiera70
 
