@@ -26,7 +26,6 @@ Attualmente sto frequentando un corso di REACT.JS di 100 ore che mi ha gia' perm
 
 Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
 
-* <p align="left">GITHUB : <a href="https://github.com/lamiera70/lamiera70" target="_blank">https://github.com/lamiera70/lamiera70</a><br></p>
 
 * <p align="left">NETLIFY : <a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
 
