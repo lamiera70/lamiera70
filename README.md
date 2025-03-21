@@ -95,7 +95,7 @@ NETLIFY : https://lamiera70-calcolatrice.netlify.app/
 
 * <p align="left">Watch my <a href="https://www.masisoftware.it/">Web Site</a><br></p>
 
-* <p align="left">@mail <a href="mailto:info@masisoftware.it">info@masisoftware.it</a><br></p>
+* <p align="left">@mail <a href="mailto:info@masisoftware.it">ale1970sys@gmail.com</a><br></p>
 
 
 ###
