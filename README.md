@@ -28,15 +28,14 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 ###
 
-<h2 align="left">Alcuni progetti personali</h2>
-<h2 align="left">pubblicati su NETLIFY</h2>
+<h2 align="left">Alcuni progetti personali creati con REACT.JS</h2>
 
 
 ###
 
 
 * <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
-* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
+* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
 
 
 
