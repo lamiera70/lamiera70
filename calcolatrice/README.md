@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Creazione pagina WEB di ricerca COCKTAIL creata dinamicamente tramite una FETCH API con JAVASCRIPT</p>
+<p align="left">Creato APP calcolatrice con REACT.JS</p>
 
 ###
 
@@ -11,14 +11,10 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/cocktail/pagina_010_cocktail/cocktail.jpg?raw=true" alt="cocktail">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/calcolatrice/calcolatrice.jpg?raw=true" alt="cocktail">
 </div>
 
-###
 
-<p align="left">La pagina WEB si apre con la presentazione di N. 25 COCKTAILS tramite delle CARDS BOOTSTRAP<br>Le CARDS sono create dinamicamante con JAVASCRIPT e i dati vengono caricati tramite una FETCH API</p>
-
-###
 ###
 
 <div align="left">
