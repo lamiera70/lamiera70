@@ -22,11 +22,22 @@ Ho imparato le basi di HTML , CSS, JAVASCRIPT, BOOTSTRAP 5, PYTHON , FLASK E SQL
 
 Durante questo corso sono riuscito a sviluppare una WEB APP completa per la gestione di prodotti biologici sia FRONT-END che BACK-END visionabile sul mio GITHUB.
 
+Attualmente sto frequentando un corso di REACT.JS di 100 ore che mi ha gia' permesso di creare delle piccole WEB APP (vedi link sotto di NETLIFY)
+
 Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
 
-Web Site : https://www.masisoftware.it/
+###
 
-GITHUB : https://github.com/lamiera70/lamiera70
+<h2 align="left">Alcuni progetti personali creati con REACT.JS</h2>
+
+
+###
+
+
+* <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
+* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
+
+
 
 ###
 
@@ -35,6 +46,10 @@ GITHUB : https://github.com/lamiera70/lamiera70
 ###
 
 <div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
@@ -53,6 +68,7 @@ GITHUB : https://github.com/lamiera70/lamiera70
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
 </div>
+
 
 ###
 
@@ -81,13 +97,13 @@ GITHUB : https://github.com/lamiera70/lamiera70
 
 ###
 
-* <p align="left">Connect with me on <a href="https://www.linkedin.com/in/lamiera/">Linkedin</a><br></p>
+* <p align="left">Watch my WebSite <a href="https://www.devappspace.com" target="_blank">www.devappspace.com</a><br></p>
 
-* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70">GitHub</a><br></p>
+* <p align="left">Connect with me on <a href="https://www.linkedin.com/in/lamiera/" target="_blank">Linkedin</a><br></p>
 
-* <p align="left">Watch my <a href="https://www.masisoftware.it/">Web Site</a><br></p>
+* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70" target="_blank">GitHub</a><br></p>
 
-* <p align="left">@mail <a href="mailto:info@masisoftware.it">info@masisoftware.it</a><br></p>
+* <p align="left">@mail <a href="mailto:ale1970sys@gmail.com" target="_blank">ale1970sys@gmail.com</a><br></p>
 
 
 ###
