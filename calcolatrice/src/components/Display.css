@@ -1,0 +1,10 @@
+
+.container-display {
+    display: flex;
+    justify-content: right;
+    margin: 10px 0 10px 0;
+    min-height: 25px;
+    background-color: grey;
+    color: beige;
+    border-radius: 5px;
+}
