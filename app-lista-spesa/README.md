@@ -1,8 +1,8 @@
-<h1 align="left">The Cocktail</h1>
+<h1 align="left">Lista della spesa</h1>
 
 ###
 
-<p align="left">Creazione pagina WEB di ricerca COCKTAIL creata dinamicamente tramite una FETCH API con JAVASCRIPT</p>
+<p align="left">Creato APP lista spesa con REACT.JS</p>
 
 ###
 
@@ -11,14 +11,9 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/cocktail/pagina_010_cocktail/cocktail.jpg?raw=true" alt="cocktail">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-lista-spesa/app-lista-spesa.jpg?raw=true" alt="lista spesa">
 </div>
 
-###
-
-<p align="left">La pagina WEB si apre con la presentazione di N. 25 COCKTAILS tramite delle CARDS BOOTSTRAP<br>Le CARDS sono create dinamicamante con JAVASCRIPT e i dati vengono caricati tramite una FETCH API</p>
-
-###
 ###
 
 <div align="left">
