@@ -1,0 +1,100 @@
+
+.item-container {
+    display: flex;
+    background-color: lightgrey;
+    width: 50%;
+    min-height: 20px;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 16px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.item-description {
+    width: 50%;
+}
+
+.item-input {
+    width: 50%;
+}
+
+
+.selected {
+    background-color:lightgreen;
+    text-decoration-line: line-through;
+}
+
+
+.item-button-v {
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgb(32, 178, 170);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-button-m {
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgb(55, 185, 228);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-button-s {
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgb(216, 216, 63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-button-x {
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgb(240, 128, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-button-v:hover {
+    background-color: rgb(24, 128, 122);
+}
+
+.item-button-m:hover {
+    background-color: rgb(40, 140, 173);
+}
+
+.item-button-s:hover {
+    background-color: rgb(177, 177, 53);
+}
+
+
+.item-button-x:hover {
+    background-color: rgb(182, 98, 98);
+}
+
+
+
