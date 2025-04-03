@@ -1,0 +1,13 @@
+body {
+    background-color: beige;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+#main-content{
+    flex: 1;
+}
+
+

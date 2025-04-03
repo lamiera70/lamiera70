@@ -1,5 +1,7 @@
 console.log('sono nel js.....');
 
+const urlCocktailsLoad = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=m';
+
 const urlCocktails = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
 
 const contenitoreCard = document.querySelector('#card');
@@ -39,7 +41,14 @@ btnRicerca.addEventListener('click', function() {
 
 })
 
-callAPI(urlCocktails, stampaCards);
+
+window.onload = (function() {
+   
+    callAPI(urlCocktailsLoad, stampaCards);
+});
+
+
+
 
 
 
@@ -57,10 +66,10 @@ function stampaCards(input) {
     for(num of input.drinks) {
         contenitoreCard.innerHTML += `
         <div class="col-lg-3">
-            <div class="container mt-3 ">
-                <div class="shadow card rounded-4" style="width:100%">
+            <div class="container mt-3">
+                <div class="card" style="width:100%">
                     <img class="card-img-top" src="${num.strDrinkThumb}" alt="Card image" style="width:100%">
-                    <div class=" card-body">
+                    <div class="card-body">
                         <h4 class="card-title">${num.strDrink}</h4>
                         <p class="card-text">Tipo: ${num.strAlcoholic}</p>
                         <p class="card-text">Categoria: ${num.strCategory}</p>
