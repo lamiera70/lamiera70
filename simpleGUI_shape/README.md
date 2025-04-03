@@ -33,9 +33,9 @@
 
 * <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70">GitHub</a><br></p>
 
-* <p align="left">Watch my <a href="https://www.masisoftware.it/">Web Site</a><br></p>
+* <p align="left">Watch my <a href="https://www.devappspace.com">Web Site</a><br></p>
 
-* <p align="left">@mail <a href="mailto:info@masisoftware.it">info@masisoftware.it</a><br></p>
+* <p align="left">@mail <a href="mailto:https://www.devappspace.com">https://www.devappspace.com</a><br></p>
 
 
 
