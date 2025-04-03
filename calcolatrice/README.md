@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/calcolatrice/calcolatrice.jpg?raw=true" alt="cocktail">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/calcolatrice/calcolatrice.jpg?raw=true" alt="calcolatrice">
 </div>
 
 
