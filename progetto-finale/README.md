@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left"># 🦸‍♂️ Superhero Web App - React Project
+<p align="left">🦸‍♂️ Superhero Web App - React Project
 
 Questa è una web app realizzata con **React.js**, pensata per visualizzare e gestire una lista di supereroi. L'utente può navigare tra le sezioni, selezionare i suoi eroi preferiti, attivare la dark mode e sfruttare un’interfaccia responsive e moderna grazie a **Bootstrap 5**.
 
