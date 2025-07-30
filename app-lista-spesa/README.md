@@ -4,6 +4,8 @@
 
 <p align="left">Creato APP lista spesa con REACT.JS</p>
 
+* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
+
 ###
 
 <h2 align="left">Piccolo esempio</h2>
