@@ -52,7 +52,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-lista-spesa/app-lista-spesa.jpg?raw=true" alt="lista spesa">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/progetto-finale/progetto-finale.jpg?raw=true" alt="progetto finale">
 </div>
 
 ###
