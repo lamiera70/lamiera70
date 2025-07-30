@@ -12,19 +12,18 @@
 
 <p align="left">Attualmente lavoro in una carpenteria meccanica con la mansione di impiegato tecnico.
 
-La programmazione è stata da sempre la mia passione e vorrei trasferire questa mia passione in un lavoro reale.
+La programmazione è da sempre la mia passione, e il mio obiettivo è trasformarla in una professione concreta.
 
-Mi piace creare web app per riuscire a ottimizzare e automatizzare i miei processi lavorativi.
+Mi piace sviluppare web app per ottimizzare e automatizzare i processi lavorativi.
 
-Ho finito da poco un corso di Tecnico di Sviluppo Software di 300 ore alla Scuola Camerana di Torino.
+Ho recentemente completato un corso di Tecnico di Sviluppo Software della durata di 300 ore presso la Scuola Camerana di Torino, durante il quale ho acquisito le basi di HTML, CSS, JavaScript, Bootstrap 5, Python, Flask e SQLite.
 
-Ho imparato le basi di HTML , CSS, JAVASCRIPT, BOOTSTRAP 5, PYTHON , FLASK E SQLITE
+Nel corso della formazione, ho sviluppato una web app completa per la gestione di prodotti biologici, sia front-end che back-end, attualmente disponibile sul mio profilo GitHub.
 
-Durante questo corso sono riuscito a sviluppare una WEB APP completa per la gestione di prodotti biologici sia FRONT-END che BACK-END visionabile sul mio GITHUB.
+Ho appena concluso un corso di React.js della durata di 100 ore, grazie al quale ho realizzato alcune piccole web app, pubblicate su Netlify (vedi link sotto).
 
-Attualmente sto frequentando un corso di REACT.JS di 100 ore che mi ha gia' permesso di creare delle piccole WEB APP (vedi link sotto di NETLIFY)
+Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione, con determinazione, curiosità e tanta voglia di imparare in tempi brevi.
 
-Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione , con la sicurezza e la voglia di imparare in tempi brevi
 
 ###
 
@@ -36,6 +35,7 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 * <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
+* <p align="left"><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">https://lamiera70-progetto-finale.netlify.app/</a><br></p>
 
 
 
