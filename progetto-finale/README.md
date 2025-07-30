@@ -4,6 +4,8 @@
 
 <p align="left">🦸‍♂️ Superhero Web App - React Project
 
+* <p align="left"><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">https://lamiera70-progetto-finale.netlify.app/</a><br></p>
+
 Questa è una web app realizzata con **React.js**, pensata per visualizzare e gestire una lista di supereroi. L'utente può navigare tra le sezioni, selezionare i suoi eroi preferiti, attivare la dark mode e sfruttare un’interfaccia responsive e moderna grazie a **Bootstrap 5**.
 
 ## 🚀 Funzionalità principali
