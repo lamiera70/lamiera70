@@ -84,7 +84,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/lamiera70/count.svg?"  />
+ <img src="https://img.shields.io/badge/Visits-1234-green" alt="Visits">
 </div>
 
 ###
