@@ -46,9 +46,9 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ## ⚛️ Hook di React utilizzati
 
 - `useState` – per gestire stato locale come preferiti e tema
-- `useEffect` – per sincronizzare dati con il localStorage e aggiornare lo stato al caricamento
+- `useEffect` – per caricare i dati iniziali dalla Web API e sincronizzare lo stato con `localStorage`
 - `useNavigate` – per la navigazione programmata tra le pagine
-- `useLocation` – per sapere quale pagina è attualmente attiva</p>
+- `useLocation` – per sapere quale pagina è attualmente attiva
 
 ###
 
