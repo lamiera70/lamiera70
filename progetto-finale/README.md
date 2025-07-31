@@ -84,8 +84,9 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ###
 
 <div align="center">
- <img src="https://img.shields.io/badge/Visits-1234-green" alt="Visits">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.progetto-finale" />
 </div>
+
 
 ###
           
