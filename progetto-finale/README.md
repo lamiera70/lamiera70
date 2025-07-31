@@ -32,7 +32,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
   Navigazione tra le sezioni **Home** e **Preferiti** usando **React Router v6**.
 
 - **Deploy su Netlify**  
-  L'app è visibile online grazie al deploy tramite Netlify (🔗 link in basso).
+  L'app è visibile online grazie al deploy tramite Netlify (🔗 link in alto).
 
 ## 🛠️ Tecnologie utilizzate
 
