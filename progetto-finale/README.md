@@ -45,10 +45,10 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 
 ## ⚛️ Hook di React utilizzati
 
-- `useState` – per gestire stato locale come preferiti e tema
-- `useEffect` – per caricare i dati iniziali dalla Web API e sincronizzare lo stato con `localStorage`
-- `useNavigate` – per la navigazione programmata tra le pagine
-- `useLocation` – per sapere quale pagina è attualmente attiva
+- `useState` – per gestire lo stato dei preferiti, del tema e dei dati caricati
+- `useEffect` – per caricare i dati iniziali dalla Web API e sincronizzare `localStorage`
+- `useNavigate` – per navigare tra le pagine tramite React Router
+- `useContext` – per gestire globalmente il tema (dark/light) in tutta l'app
 
 ###
 
