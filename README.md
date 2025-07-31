@@ -108,6 +108,10 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 ###
 
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.progetto-finale" />
+</div>
+
 
 
 ###
