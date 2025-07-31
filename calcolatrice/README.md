@@ -41,8 +41,9 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/lamiera70/count.svg?"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.progetto-finale" />
 </div>
+
 
 ###
           
