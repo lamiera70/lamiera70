@@ -10,6 +10,9 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 
 ## 🚀 Funzionalità principali
 
+- **Caricamento dinamico da Web API**  
+  I dati dei supereroi vengono caricati automaticamente tramite `fetch` all'interno di `useEffect`, al primo montaggio dell'app.
+
 - **Visualizzazione dinamica dei supereroi**  
   Ogni supereroe è mostrato in una card con immagine, nome e descrizione.
 
