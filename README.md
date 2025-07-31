@@ -109,8 +109,14 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 ###
 
 <div align="center">
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/lamiera70/progetto-finale&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visite&edge_flat=false)](https://hits.seeyoufarm.com)
+
+  <h1>contatore</h1>
   
+
+  <a href="https://hits.seeyoufarm.com">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/lamiera70/progetto-finale&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visite&edge_flat=false" alt="visite">
+  </a>
+
 </div>
 
 ###
