@@ -1,12 +1,47 @@
-# React + Vite
+<h1 align="left">Lista della spesa</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###
 
-Currently, two official plugins are available:
+<p align="left">Creato APP lista spesa con REACT.JS</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
 
-## Expanding the ESLint configuration
+###
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2 align="left">Piccolo esempio</h2>
+
+###
+
+<div align="center">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-lista-spesa/app-lista-spesa.jpg?raw=true" alt="lista spesa">
+</div>
+
+###
+
+<div align="left">
+</div>
+
+###
+
+<h2 align="left">How to reach me</h2>
+
+###
+
+* <p align="left">Connect with me on <a href="https://www.linkedin.com/in/lamiera/">Linkedin</a><br></p>
+
+* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70">GitHub</a><br></p>
+
+* <p align="left">Watch my <a href="https://www.devappspace.com">Web Site</a><br></p>
+
+* <p align="left">@mail <a href="mailto:ale1970sys@gmail.com">ale1970sys@gmail.com</a><br></p>
+
+
+
+###
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.progetto-finale" />
+</div>
+
+
+
