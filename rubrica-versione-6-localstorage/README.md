@@ -4,7 +4,7 @@
 
 <p align="left">Creato APP Rubrica telefonica con REACT.JS</p>
 
-* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
+* <p align="left"><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">https://lamiera70-rubrica.netlify.app/</a><br></p>
 
 ###
 
