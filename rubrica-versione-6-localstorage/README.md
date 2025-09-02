@@ -6,7 +6,7 @@
 
 * <p align="left"><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">https://lamiera70-rubrica.netlify.app/</a><br></p>
 
-Questa è una web app realizzata con **React.js**, pensata per visualizzare e gestire una rubrica telefonica. L'utente può ricercare, consultare, aggiungere, modificare e cancellare dei contatti telefonici sfruttando un’interfaccia responsive e volutamente minimale utilizzando puro codice CSS.
+Questa è una web app realizzata con **React.js**, pensata per visualizzare e gestire una rubrica telefonica. L'utente può ricercare, consultare, aggiungere, modificare e cancellare dei contatti telefonici sfruttando un’interfaccia responsive e volutamente minimale utilizzando puro codice `CSS`.
 
 ## 🚀 Funzionalità principali
 
@@ -18,7 +18,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
   Ogni contatto è mostrato in una card con nome cognome telefono email.
 
 - **Gestione dei contatti**  
-  Cliccando su ogni CARD è possibile modificare o rimuovere un contatto. I dati sono salvati in `localStorage` per mantenere lo stato
+  Cliccando su ogni CARD è possibile modificare o rimuovere un contatto. I dati sono salvati nel `localStorage` per mantenere lo stato
   anche al refresh della pagina.
 
 - **Ricerca dinamica**  
