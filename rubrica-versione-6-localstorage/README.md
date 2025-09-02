@@ -1,8 +1,8 @@
-<h1 align="left">Lista della spesa</h1>
+<h1 align="left">Rubrica telefonica</h1>
 
 ###
 
-<p align="left">Creato APP lista spesa con REACT.JS</p>
+<p align="left">Creato APP Rubrica telefonica con REACT.JS</p>
 
 * <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
 
@@ -13,7 +13,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-lista-spesa/app-lista-spesa.jpg?raw=true" alt="lista spesa">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/rubrica-versione-6-localstorage/rubrica.jpg?raw=true" alt="rubrica">
 </div>
 
 ###
