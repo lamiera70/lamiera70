@@ -30,6 +30,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ## 🛠️ Tecnologie utilizzate
 
 - **React.js**
+- **React-Icon**
 - **CSS Modules**
 - **localStorage**
 - **Netlify** (per il deploy)
