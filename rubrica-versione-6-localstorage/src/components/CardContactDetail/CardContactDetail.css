@@ -4,10 +4,10 @@
     padding: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px #0000001a;
-    width: calc(33.333% - 10px);
+    width: calc(40% - 10px);
     box-sizing: border-box;
     text-align: center;
-    min-width: 250px;
+    min-width: 300px;
 }
 
 .card-detail img {
@@ -18,12 +18,12 @@
     margin-bottom: 10px;
 }
 
-.card-detail h4 {
+.card-detail h3 {
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-.card-detail p {
+.card-detail h4 {
     margin: 5px 0;
     text-align: left;
 }

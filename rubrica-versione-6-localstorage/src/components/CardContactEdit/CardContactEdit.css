@@ -20,6 +20,7 @@
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 15px;
   }
 
   .card-edit img {
