@@ -21,7 +21,7 @@
 ###
 ###
 
-<h2 align="left">Download il file eseguibile</h2>
+<h2 align="left">Download del file eseguibile</h2>
 * <a href="https://mega.nz/file/oD1xlQCD#KrDLvDtmGP7chlpt_AyEJk8rRBqvbq3bUv9oZRltTyM">Scatolati</a>
 
 ###
