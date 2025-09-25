@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questa APP permette di modificare del testo da maiuscolo in minuscolo e viceversa</p>
+<p align="left">Questa APP, creata con Python e Tkinter per l'interfaccia grafica, permette di modificare del testo da maiuscolo in minuscolo e viceversa</p>
 
 ###
 
