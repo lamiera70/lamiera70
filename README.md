@@ -32,7 +32,7 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 ###
 
-
+* <p align="left"><a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">https://lamiera70-app-scatolati.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">https://lamiera70-progetto-finale.netlify.app/</a><br></p>
