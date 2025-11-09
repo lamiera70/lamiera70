@@ -16,7 +16,7 @@ La programmazione è da sempre la mia passione, e il mio obiettivo è trasformar
 
 Mi piace sviluppare web app per ottimizzare e automatizzare i processi lavorativi.
 
-Ho recentemente completato un corso di Tecnico di Sviluppo Software della durata di 300 ore presso la Scuola Camerana di Torino, durante il quale ho acquisito le basi di HTML, CSS, JavaScript, Bootstrap 5, Python, Flask e SQLite.
+Ho completato un corso di Tecnico di Sviluppo Software della durata di 300 ore presso la Scuola Camerana di Torino, durante il quale ho acquisito le basi di HTML, CSS, JavaScript, Bootstrap 5, Python, Flask e SQLite.
 
 Nel corso della formazione, ho sviluppato una web app completa per la gestione di prodotti biologici, sia front-end che back-end, attualmente disponibile sul mio profilo GitHub.
 
@@ -32,10 +32,11 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 ###
 
-
+* <p align="left"><a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">https://lamiera70-app-scatolati.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">https://lamiera70-calcolatrice.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">https://lamiera70-listaspesa.netlify.app/</a><br></p>
 * <p align="left"><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">https://lamiera70-progetto-finale.netlify.app/</a><br></p>
+* <p align="left"><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">https://lamiera70-rubrica.netlify.app/</a><br></p>
 
 
 

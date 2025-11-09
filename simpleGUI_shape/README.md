@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questa APP permette di calcolare l'area di figure geometriche di base</p>
+<p align="left">Questa APP, creata con Python e PySimpleGUI per l'interfaccia grafica, permette di calcolare l'area di figure geometriche di base</p>
 
 ###
 
@@ -20,8 +20,8 @@
 
 ###
 
-<div align="left">
-</div>
+<h2 align="left">Download del file eseguibile</h2>
+* <a href="https://mega.nz/file/sfkVgaTL#JspbNkrf_eoM9t-yn9jrgYgaiK4D4bSa3uzwJ1o3rEo">Shape</a>
 
 ###
 

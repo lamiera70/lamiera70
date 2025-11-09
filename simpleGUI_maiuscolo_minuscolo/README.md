@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questa APP permette di modificare del testo da maiuscolo in minuscolo e viceversa</p>
+<p align="left">Questa APP, creata con Python e PySimpleGUI per l'interfaccia grafica, permette di modificare del testo da maiuscolo in minuscolo e viceversa</p>
 
 ###
 
@@ -21,8 +21,8 @@
 ###
 ###
 
-<div align="left">
-</div>
+<h2 align="left">Download del file eseguibile</h2>
+* <a href="https://mega.nz/file/8HlEAbzL#ATWxVu306FzMzspnZ3zsFtBsta1SRxt_6Odg_1mrwgU">Maiuscolo_minuscolo</a>
 
 ###
 

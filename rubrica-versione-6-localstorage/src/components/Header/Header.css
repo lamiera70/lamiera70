@@ -14,5 +14,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    min-width: 400px;
+    min-width: 300px;
 }

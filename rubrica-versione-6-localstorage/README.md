@@ -11,7 +11,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ## 🚀 Funzionalità principali
 
 - **Caricamento dinamico dal LocalStorage**  
-  I dati dei contatti vengono salvati localmente nel LOCALSTORAGE del Browser e vengono visualizati tramite `useEffect`, al primo
+  I dati dei contatti vengono salvati localmente nel LOCALSTORAGE del Browser e vengono visualizzati tramite `useEffect`, al primo
   montaggio dell'app.
 
 - **Visualizzazione dinamica dei contatti**  
@@ -30,6 +30,7 @@ Questa è una web app realizzata con **React.js**, pensata per visualizzare e ge
 ## 🛠️ Tecnologie utilizzate
 
 - **React.js**
+- **React-Icon**
 - **CSS Modules**
 - **localStorage**
 - **Netlify** (per il deploy)

@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Questa APP permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
+<p align="left">Questa APP, creata con Python e PySimpleGUI per l'interfaccia grafica, permette di calcolare il numero di barre commerciali, partendo da una lista di pezzi da tagliare in base alla quantità richiesta.</p>
 
 ###
 
@@ -21,8 +21,8 @@
 ###
 ###
 
-<div align="left">
-</div>
+<h2 align="left">Download del file eseguibile</h2>
+* <a href="https://mega.nz/file/oD1xlQCD#KrDLvDtmGP7chlpt_AyEJk8rRBqvbq3bUv9oZRltTyM">Scatolati</a>
 
 ###
 
