@@ -33,9 +33,6 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 ###
 
 
-* <p align="left"><a href="#" onclick="window.open('https://lamiera70-app-scatolati.netlify.app/', '_blank', 'width=1200,height=800'); return false;">
-  APP SCATOLATI
-</a><br></p>
 * <p align="left"><a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">APP SCATOLATI</a><br></p>
 * <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">CALCOLATRICE</a><br></p>
 * <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">LISTA DELLA SPESA</a><br></p>
