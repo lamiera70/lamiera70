@@ -39,6 +39,16 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 * <p align="left"><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">https://lamiera70-rubrica.netlify.app/</a><br></p>
 
 
+###
+
+
+<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK + SQLITE</h2>
+
+
+###
+
+* <p align="left"><a href="https://lamiera70.pythonanywhere.com/" target="_blank">https://lamiera70.pythonanywhere.com/</a><br></p>
+
 
 ###
 
