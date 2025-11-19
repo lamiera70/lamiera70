@@ -20,7 +20,10 @@ Ho completato un corso di Tecnico di Sviluppo Software della durata di 300 ore p
 
 Nel corso della formazione, ho sviluppato una web app completa per la gestione di prodotti biologici, sia front-end che back-end, attualmente disponibile sul mio profilo GitHub.
 
-Ho appena concluso un corso di React.js della durata di 100 ore, grazie al quale ho realizzato alcune piccole web app, pubblicate su Netlify (vedi link sotto).
+Inoltre ho concluso un corso di React.js della durata di 100 ore, grazie al quale ho realizzato alcune piccole web app, pubblicate su Netlify (vedi link sotto).
+
+Attualmente sto frequentando un corso di Node.js, per ampliare le mie competenze nello sviluppo back-end con Node.js, Express e MongoDB. Questo mi permetterà di realizzare applicazioni 
+full-stack sempre più complete e professionali.
 
 Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione, con determinazione, curiosità e tanta voglia di imparare in tempi brevi.
 
