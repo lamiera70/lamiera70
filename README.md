@@ -30,7 +30,7 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 
 ###
 
-<h2 align="left">Alcuni progetti personali creati con REACT.JS/h2>
+<h2 align="left">Alcuni progetti personali creati con REACT.JS</h2>
 
 
 ###
@@ -46,7 +46,7 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 ###
 
 
-<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK/h2>
+<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK</h2>
 
 
 ###
