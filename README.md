@@ -46,7 +46,7 @@ Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della p
 ###
 
 
-<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK + SQLITE</h2>
+<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK/h2>
 
 
 ###
