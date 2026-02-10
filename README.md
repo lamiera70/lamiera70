@@ -1,150 +1,130 @@
 <h1 align="left">Hey 👋 What's up?</h1>
 
-###
+<p align="left">
+  My name is <strong>Alessandro</strong> and I'm a <strong>Web Developer</strong> from Italy 🇮🇹
+</p>
 
-<p align="left">My name is Alessandro and I'm a WEB DEVELOPER from Italy</p>
-
-###
+---
 
 <h2 align="left">About me</h2>
 
-###
+<p align="left">
+  I currently work in a mechanical carpentry company as a
+  <strong>technical employee</strong>.
+  Alongside my technical background, I have developed strong skills in
+  <strong>software and web development</strong>, focusing on building
+  <strong>web applications</strong> that help optimize and automate work processes.
+</p>
 
-<p align="left">Attualmente lavoro in una carpenteria meccanica con la mansione di impiegato tecnico.
+<p align="left">
+  I completed a <strong>300-hour Software Development Technician course</strong>
+  at <strong>Scuola Camerana (Turin)</strong>, where I gained solid foundations in
+  <strong>HTML, CSS, JavaScript, Bootstrap 5, Python, Flask and SQLite</strong>.
+</p>
 
-La programmazione è da sempre la mia passione, e il mio obiettivo è trasformarla in una professione concreta.
+<p align="left">
+  During my training, I developed a <strong>full-stack web application</strong>
+  for the management of organic products (front-end + back-end),
+  currently available on my GitHub profile.
+</p>
 
-Mi piace sviluppare web app per ottimizzare e automatizzare i processi lavorativi.
+<p align="left">
+  I also completed a <strong>100-hour React.js course</strong>, building several
+  web applications published on <strong>Netlify</strong>.
+</p>
 
-Ho completato un corso di Tecnico di Sviluppo Software della durata di 300 ore presso la Scuola Camerana di Torino, durante il quale ho acquisito le basi di HTML, CSS, JavaScript, Bootstrap 5, Python, Flask e SQLite.
+<p align="left">
+  I am currently deepening my back-end skills by studying
+  <strong>Node.js, Express and MongoDB</strong>, with the goal of building
+  increasingly complete and well-structured <strong>full-stack applications</strong>.
+</p>
 
-Nel corso della formazione, ho sviluppato una web app completa per la gestione di prodotti biologici, sia front-end che back-end, attualmente disponibile sul mio profilo GitHub.
+<p align="left">
+  I approach software development with a practical mindset, curiosity and a strong
+  focus on continuous learning and real-world problem solving.
+</p>
 
-Inoltre ho concluso un corso di React.js della durata di 100 ore, grazie al quale ho realizzato alcune piccole web app, pubblicate su Netlify (vedi link sotto).
+---
 
-Attualmente sto frequentando un corso di Node.js, per ampliare le mie competenze nello sviluppo back-end con Node.js, Express e MongoDB. Questo mi permetterà di realizzare applicazioni 
-full-stack sempre più complete e professionali.
+<h2 align="left">Tech Stack</h2>
 
-Sono pronto a mettermi in gioco per crescere professionalmente nel mondo della programmazione, con determinazione, curiosità e tanta voglia di imparare in tempi brevi.
+<p align="left">
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
+  </a>
+  <a href="https://nodejs.org/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
+  </a>
+  <a href="https://getbootstrap.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" />
+  </a>
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" />
+  </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" />
+  </a>
+  <a href="https://www.sqlite.org/index.html" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" />
+  </a>
+</p>
 
+---
 
-###
+<h2 align="left">Featured Projects (React.js)</h2>
 
-<h2 align="left">Alcuni progetti personali creati con REACT.JS</h2>
+<ul align="left">
+  <li><a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">App Scatolati</a></li>
+  <li><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">Calcolatrice</a></li>
+  <li><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">Lista della Spesa</a></li>
+  <li><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">Progetto Finale</a></li>
+  <li><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">Rubrica Telefonica</a></li>
+</ul>
 
+---
 
-###
+<h2 align="left">Python & Flask Projects</h2>
 
+<ul align="left">
+  <li>
+    <a href="https://lamiera70.pythonanywhere.com/" target="_blank">
+      Rubrica Telefonica (Python + Flask)
+    </a>
+  </li>
+</ul>
 
-* <p align="left"><a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">APP SCATOLATI</a><br></p>
-* <p align="left"><a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">CALCOLATRICE</a><br></p>
-* <p align="left"><a href="https://lamiera70-listaspesa.netlify.app/" target="_blank">LISTA DELLA SPESA</a><br></p>
-* <p align="left"><a href="https://lamiera70-progetto-finale.netlify.app/" target="_blank">PROGETTO FINALE</a><br></p>
-* <p align="left"><a href="https://lamiera70-rubrica.netlify.app/" target="_blank">RUBRICA TELEFONICA</a><br></p>
+---
 
+<h2 align="left">Tools</h2>
 
-###
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" />
+</p>
 
-
-<h2 align="left">Alcuni progetti personali creati anni fa con PYTHON + FLASK</h2>
-
-
-###
-
-* <p align="left"><a href="https://lamiera70.pythonanywhere.com/" target="_blank">RUBRICA TELEFONICA</a><br></p>
-
-
-###
-
-<h2 align="left">I code with</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="40" alt="sqlalchemy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-</div>
-
-
-###
-
-<h2 align="left">Other tool</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-</div>
-
-###
-
-<div align="left">
-</div>
-
-###
+---
 
 <h2 align="left">How to reach me</h2>
 
-###
+<ul align="left">
+  <li>🌐 Website: <a href="https://www.devappspace.com" target="_blank">www.devappspace.com</a></li>
+  <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/lamiera/" target="_blank">linkedin.com/in/lamiera</a></li>
+  <li>📧 Email: <a href="mailto:ale1970sys@gmail.com">ale1970sys@gmail.com</a></li>
+</ul>
 
-* <p align="left">Watch my WebSite <a href="https://www.devappspace.com" target="_blank">www.devappspace.com</a><br></p>
-
-* <p align="left">Connect with me on <a href="https://www.linkedin.com/in/lamiera/" target="_blank">Linkedin</a><br></p>
-
-* <p align="left">Watch my <a href="https://github.com/lamiera70/lamiera70" target="_blank">GitHub</a><br></p>
-
-* <p align="left">@mail <a href="mailto:ale1970sys@gmail.com" target="_blank">ale1970sys@gmail.com</a><br></p>
-
-
-###
+---
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.progetto-finale" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lamiera70.lamiera70" />
 </div>
-
-
-
-###
-          
-
-###
-
-<!--
-**lamiera70/lamiera70** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
