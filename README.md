@@ -37,7 +37,7 @@
 </p>
 
 <p align="left">
-  Attualmente sto approfondendo lo sviluppo back-end attraverso lo studio di
+  Attualmente sto approfondendo lo sviluppo back-end frequentando un corso di
   <strong>Node.js, Express e MongoDB</strong>, con l’obiettivo di realizzare
   applicazioni <strong>full-stack</strong> sempre più complete e strutturate.
 </p>
