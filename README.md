@@ -1,7 +1,7 @@
 <h1 align="left">Ciao 👋 come va?</h1>
 
 <p align="left">
-  Mi chiamo <strong>Alessandro</strong> e sono un <strong>Web Developer</strong> dall’Italia 🇮🇹
+  Mi chiamo <strong>Alessandro</strong> e sono un <strong>Web Developer</strong>
 </p>
 
 ---
