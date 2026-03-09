@@ -77,7 +77,7 @@
   </li>
   <li>
     <a href="https://lamiera70-app-flexbox.netlify.app/" target="_blank">
-      App fLEXBOX
+      App Flexbox
     </a>
   </li>
   <li>
