@@ -31,9 +31,9 @@ function App() {
       <div className="container-header">
         <div className="container-radio">
           <span>Quantità BOX</span>
-          <button onClick={handleChangeCountUp}><strong>+</strong></button>
+          <button onClick={handleChangeCountDown}><span>➖</span></button>
           <Box text={count} minWidth={10} />
-          <button onClick={handleChangeCountDown}><strong>-</strong></button>
+          <button onClick={handleChangeCountUp}><span>➕</span></button>
         </div>
 
         {wrapStatus ? (
