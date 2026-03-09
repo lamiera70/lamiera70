@@ -13,7 +13,7 @@
 ###
 
 <div align="center">
-  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-flexbox/app-flexbox.jpg?raw=true" alt="lista spesa">
+  <img src="https://github.com/lamiera70/lamiera70/blob/main/app-flexbox/app-flexbox.jpg?raw=true" alt="app flexbox">
 </div>
 
 ###
