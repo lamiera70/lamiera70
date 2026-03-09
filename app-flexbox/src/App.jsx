@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import Box from "./components/Box";
+import Button from "./components/Button";
 
 function App() {
   const [direction, setDirection] = useState("column");
@@ -10,8 +11,6 @@ function App() {
   const [alignContent, setAlignContent] = useState("center");
   const [count, setCount] = useState(5);
 
-  
-  
   const wrapStatus = wrap === "wrap";
 
   function handleChangeCountUp() {
@@ -31,9 +30,9 @@ function App() {
       <div className="container-header">
         <div className="container-radio">
           <span>Quantità BOX</span>
-          <button onClick={handleChangeCountDown}><span>➖</span></button>
+          <Button text={"➖"} handleClick={handleChangeCountDown} />
           <Box text={count} minWidth={10} />
-          <button onClick={handleChangeCountUp}><span>➕</span></button>
+          <Button text={"➕"} handleClick={handleChangeCountUp} />
         </div>
 
         {wrapStatus ? (
