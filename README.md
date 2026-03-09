@@ -76,6 +76,11 @@
     </a>
   </li>
   <li>
+    <a href="https://lamiera70-app-flexbox.netlify.app/" target="_blank">
+      App fLEXBOX
+    </a>
+  </li>
+  <li>
     <a href="https://lamiera70-calcolatrice.netlify.app/" target="_blank">
       Calcolatrice
     </a>
