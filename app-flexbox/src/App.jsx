@@ -86,8 +86,10 @@ function App() {
 
             <div>
               <span>
-                allinea verticale
-                <br /> con a capo{" "}
+                {direction === "row"
+                  ? "Allinea verticale"
+                  : "Allinea orizzontale"}
+                <br /> con a capo
               </span>
               <select
                 value={alignContent}
