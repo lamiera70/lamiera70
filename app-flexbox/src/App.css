@@ -126,7 +126,6 @@
 @media (max-width: 640px) {
 
   .container-header,
-  .container-box,
   .container-footer {
     width: 100%;
   }
