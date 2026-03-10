@@ -30,9 +30,9 @@ function App() {
       <div className="container-header">
         <div className="container-radio">
           <span>Quantità BOX</span>
-          <Button text={"➖"} handleClick={handleChangeCountDown} />
-          <Box text={count} minWidth={10} />
-          <Button text={"➕"} handleClick={handleChangeCountUp} />
+          <span><Button text={"➖"} handleClick={handleChangeCountDown} /></span>
+          <span><Box text={count} minWidth={10} /></span>
+          <span><Button text={"➕"} handleClick={handleChangeCountUp} /></span>
         </div>
 
         {wrapStatus ? (
