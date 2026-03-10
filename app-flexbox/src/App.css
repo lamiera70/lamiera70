@@ -148,8 +148,8 @@
   }
 
   .container-box {
-    height: auto;
-    min-height: 400px;
+    height: 400px;
+    overflow: visible;
   }
 
   .container-footer span {
