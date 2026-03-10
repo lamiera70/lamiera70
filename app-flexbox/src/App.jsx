@@ -31,7 +31,7 @@ function App() {
         <div className="container-radio">
           <span>Quantità BOX</span>
           <span><Button text={"➖"} handleClick={handleChangeCountDown} /></span>
-          <span><Box text={count} minWidth={10} /></span>
+          <span><Box text={count} minWidth={5} /></span>
           <span><Button text={"➕"} handleClick={handleChangeCountUp} /></span>
         </div>
 
@@ -187,7 +187,7 @@ function App() {
         }}
       >
         {Array.from({ length: count }).map((_, i) => (
-          <Box key={i} text={`Box ${i + 1}`} minWidth={80} />
+          <Box key={i} text={`Box ${i + 1}`} minWidth={60} />
         ))}
       </div>
       <div className="container-footer">
