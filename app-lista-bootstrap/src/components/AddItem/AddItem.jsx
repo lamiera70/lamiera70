@@ -26,6 +26,9 @@ function AddItem({ addItem }) {
       <button className="btn btn-primary" onClick={handleAdd}>
         Aggiungi
       </button>
+      <button className="btn btn-primary" onClick={handleAdd}>
+        Aggiungi
+      </button>
     </div>
   );
 }
