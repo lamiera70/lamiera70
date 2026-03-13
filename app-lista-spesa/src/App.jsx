@@ -18,8 +18,6 @@ export default function App() {
   const [listaIdEdit, setListaIDEdit] = useState([]);
 
   
-
-
   function handleClickAdd(item, addItem) {
 
     if(item !== '')

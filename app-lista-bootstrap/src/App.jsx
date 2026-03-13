@@ -7,12 +7,25 @@ import Header from "./components/Header/Header";
 export default function App() {
   const [items, setItems] = useState([]);
 
+  const [listaIdEdit, setListaIDEdit] = useState([]);
+
   function addItem(text) {
     setItems([...items, { id: crypto.randomUUID(), testo: text }]);
   }
 
+  function handleClickEdit(id) {
+
+    if(listaIdEdit.includes(id))
+      { setListaIDEdit(listaIdEdit.filter(lista => lista !== id))
+      } else {
+        setListaIDEdit([...listaIdEdit, id])
+      }
+
+  }
+
   function modItem(item) {
-    // alert(`stai modificando ${item.testo} con id ${item.id}`)
+    
+   
   }
 
   return (
@@ -21,9 +34,19 @@ export default function App() {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="card p-4 shadow-sm">
+
               <Header message="Lista della spesa" />
+
               <AddItem addItem={addItem} />
-              <ItemList items={items} modItem={modItem}/>
+
+              <ItemList
+               items={items}
+               modItem={modItem}
+               handleClickEdit={handleClickEdit}
+               listaIdEdit={listaIdEdit}
+              
+              />
+
             </div>
           </div>
         </div>

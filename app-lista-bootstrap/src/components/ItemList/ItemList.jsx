@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./ItemList.css";
 
-function ItemList({ items, modItem }) {
+function ItemList({ items, modItem, handleClickEdit, listaIdEdit }) {
 
   const [toggleMod, setToggleMod] = useState(false)
+  const [itemId, setItemId] = useState([])
 
   function handleMod(item) {
     
     modItem(item);
-    setToggleMod(!toggleMod)
+    
     
   }
 
@@ -19,13 +20,16 @@ function ItemList({ items, modItem }) {
           key={item.id}
           className="list-group-item d-flex justify-content-between align-items-center"
         >
-          { toggleMod ? (
-            <input type="text" />
-          ) : (
-            item.testo
-          ) }
+          
+          {!listaIdEdit.includes(item.id) ? (
 
-          <button className="btn btn-info btn-sm" onClick={() => handleMod(item)}>
+            item.testo
+          ) : (
+            <input type="text" />
+          )}
+          
+
+          <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
             Modifica
           </button>
         </li>
