@@ -22,16 +22,34 @@ function ItemList({ items, modItem, handleClickEdit, listaIdEdit }) {
         >
           
           {!listaIdEdit.includes(item.id) ? (
-
-            item.testo
+            <>
+              {item.testo}
+              <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
+              {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
+              </button>
+            </>
           ) : (
-            <input type="text" />
+            <>
+              <input type="text" />
+              <div>
+
+                <button className="btn btn-danger btn-sm" onClick={() => handleClickEdit(item.id)}>
+                  Elimina
+                </button>
+                <button
+                  className= {listaIdEdit.includes(item.id) ? "btn btn-success btn-sm ms-2" : "btn btn-info btn-sm ms-2"}
+                  onClick={() => handleClickEdit(item.id)}>
+                  {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
+                </button>
+              </div>
+
+            </>
           )}
           
 
-          <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
-            Modifica
-          </button>
+          {/* <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
+            {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
+          </button> */}
         </li>
       ))}
     </ul>
