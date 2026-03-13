@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./AddItem.css";
 
 function AddItem({ addItem }) {
+  
   const [text, setText] = useState("");
 
   function handleAdd() {

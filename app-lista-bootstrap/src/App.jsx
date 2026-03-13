@@ -11,15 +11,19 @@ export default function App() {
     setItems([...items, { id: crypto.randomUUID(), testo: text }]);
   }
 
+  function modItem(item) {
+    // alert(`stai modificando ${item.testo} con id ${item.id}`)
+  }
+
   return (
     <>
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="card p-4 shadow-sm">
-              <Header message={"Lista della spesa"} />
+              <Header message="Lista della spesa" />
               <AddItem addItem={addItem} />
-              <ItemList items={items} />
+              <ItemList items={items} modItem={modItem}/>
             </div>
           </div>
         </div>
