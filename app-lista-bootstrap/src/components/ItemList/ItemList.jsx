@@ -1,7 +1,15 @@
 
 import "./ItemList.css";
 
-function ItemList({ items, editText, setEditText, editingId, handleClickDelete, handleClickSave, handleClickEditId, handleClickCancel  }) {
+function ItemList({
+   items,
+   editText,
+   setEditText,
+   editingId,
+   handleClickDelete,
+   handleClickSave,
+   handleClickEditId,
+   handleClickCancel}) {
 
 
   
@@ -20,7 +28,7 @@ function ItemList({ items, editText, setEditText, editingId, handleClickDelete, 
               <button 
                 className="btn btn-info btn-sm"
                 onClick={() => handleClickEditId(item)}>
-                {editingId === item.id ? "Salva" : "Modifica"}
+                Modifica
               </button>
             </>
           ) : (
@@ -47,9 +55,9 @@ function ItemList({ items, editText, setEditText, editingId, handleClickDelete, 
                   Annulla
                 </button>
                 <button
-                  className= {editingId === item.id ? "btn btn-success btn-sm ms-2" : "btn btn-info btn-sm ms-2"}
-                  onClick={() => handleClickSave(item)}>
-                  {editingId === item.id ? "Salva" : "Modifica"}
+                  className= "btn btn-success btn-sm ms-2"
+                  onClick={() => handleClickSave(item, editText)}>
+                  Salva
                 </button>
                 
               </div>

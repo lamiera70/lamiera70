@@ -24,6 +24,7 @@ export default function App() {
   function handleClickCancel() {
 
     setEditingId(null)
+    setEditText("")
    
 
   }
@@ -39,24 +40,24 @@ export default function App() {
   // }
   
   
-  function handleClickEdit(item) {
-
-   
-
-  }
-
   
-
+  
+  
   
   function handleClickDelete(item) {
-
-   
+    
+    
+    setItems(items.filter(i => i.id !== item.id ))
 
   }
 
-  function handleClickSave(item) {
+  function handleClickSave(item, editText) {
 
-   
+    
+    setItems(items.map((lista) => (lista.id === item.id ? {...lista, testo: editText} : lista)));
+    setEditingId(null)
+
+  
 
   }
 
@@ -76,7 +77,7 @@ export default function App() {
               <ItemList
                items={items}
                handleClickEditId={handleClickEditId}
-               handleClickEdit={handleClickEdit}
+               
                handleClickCancel={handleClickCancel}
                handleClickDelete={handleClickDelete}
                handleClickSave={handleClickSave}
