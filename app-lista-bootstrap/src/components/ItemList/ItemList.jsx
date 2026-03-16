@@ -1,17 +1,10 @@
-import { useState } from "react";
+
 import "./ItemList.css";
 
-function ItemList({ items, modItem, handleClickEdit, listaIdEdit }) {
+function ItemList({ items, editText, setEditText, editingId, handleClickDelete, handleClickSave, handleClickEditId, handleClickCancel  }) {
 
-  const [toggleMod, setToggleMod] = useState(false)
-  const [itemId, setItemId] = useState([])
 
-  function handleMod(item) {
-    
-    modItem(item);
-    
-    
-  }
+  
 
   return (
     <ul className="list-group">
@@ -21,35 +14,50 @@ function ItemList({ items, modItem, handleClickEdit, listaIdEdit }) {
           className="list-group-item d-flex justify-content-between align-items-center"
         >
           
-          {!listaIdEdit.includes(item.id) ? (
+          {editingId !== item.id ? (
             <>
               {item.testo}
-              <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
-              {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
+              <button 
+                className="btn btn-info btn-sm"
+                onClick={() => handleClickEditId(item)}>
+                {editingId === item.id ? "Salva" : "Modifica"}
               </button>
             </>
           ) : (
             <>
-              <input type="text" />
-              <div>
+             
+              <div className="input-group mb-3">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Inserisci prodotto"
+                  value={editText}
+                  onChange={(e) => setEditText(e.target.value)}
+                  
+                />
 
-                <button className="btn btn-danger btn-sm" onClick={() => handleClickEdit(item.id)}>
+                <button
+                  className="btn btn-danger btn-sm ms-2"
+                  onClick={() => handleClickDelete(item)}>
                   Elimina
                 </button>
                 <button
-                  className= {listaIdEdit.includes(item.id) ? "btn btn-success btn-sm ms-2" : "btn btn-info btn-sm ms-2"}
-                  onClick={() => handleClickEdit(item.id)}>
-                  {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
+                  className="btn btn-secondary btn-sm ms-2"
+                  onClick={() => handleClickCancel(item)}>
+                  Annulla
                 </button>
+                <button
+                  className= {editingId === item.id ? "btn btn-success btn-sm ms-2" : "btn btn-info btn-sm ms-2"}
+                  onClick={() => handleClickSave(item)}>
+                  {editingId === item.id ? "Salva" : "Modifica"}
+                </button>
+                
               </div>
 
             </>
           )}
           
 
-          {/* <button className="btn btn-info btn-sm" onClick={() => handleClickEdit(item.id)}>
-            {listaIdEdit.includes(item.id) ? "Salva" : "Modifica"}
-          </button> */}
         </li>
       ))}
     </ul>

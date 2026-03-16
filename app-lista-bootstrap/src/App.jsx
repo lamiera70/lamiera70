@@ -6,27 +6,61 @@ import Header from "./components/Header/Header";
 
 export default function App() {
   const [items, setItems] = useState([]);
+  const [editText, setEditText] = useState("");
+  const [editingId, setEditingId] = useState(null);
 
-  const [listaIdEdit, setListaIDEdit] = useState([]);
-
+  
+  
   function addItem(text) {
     setItems([...items, { id: crypto.randomUUID(), testo: text }]);
   }
 
-  function handleClickEdit(id) {
 
-    if(listaIdEdit.includes(id))
-      { setListaIDEdit(listaIdEdit.filter(lista => lista !== id))
-      } else {
-        setListaIDEdit([...listaIdEdit, id])
-      }
-
+  function handleClickEditId(item) {
+    setEditingId(item.id);
+    setEditText(item.testo);
   }
 
-  function modItem(item) {
-    
+  function handleClickCancel() {
+
+    setEditingId(null)
    
+
   }
+
+  // function handleClickdefinire(item) {
+
+  //   if(listaIdEdit.includes(item.id))
+  //     { setListaIDEdit(listaIdEdit.filter(lista => lista !== item.id))
+  //     } else {
+  //       setListaIDEdit([...listaIdEdit, item.id])
+  //     }
+
+  // }
+  
+  
+  function handleClickEdit(item) {
+
+   
+
+  }
+
+  
+
+  
+  function handleClickDelete(item) {
+
+   
+
+  }
+
+  function handleClickSave(item) {
+
+   
+
+  }
+
+  
 
   return (
     <>
@@ -41,9 +75,15 @@ export default function App() {
 
               <ItemList
                items={items}
-               modItem={modItem}
+               handleClickEditId={handleClickEditId}
                handleClickEdit={handleClickEdit}
-               listaIdEdit={listaIdEdit}
+               handleClickCancel={handleClickCancel}
+               handleClickDelete={handleClickDelete}
+               handleClickSave={handleClickSave}
+               editText={editText}
+               editingId={editingId}
+               setEditText={setEditText}
+               
               
               />
 
