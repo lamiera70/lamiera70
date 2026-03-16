@@ -44,17 +44,17 @@ export default function App() {
   
   
   
-  function handleClickDelete(item) {
+  function handleClickDelete(id) {
     
     
-    setItems(items.filter(i => i.id !== item.id ))
+    setItems(items.filter(item => item.id !== id ))
 
   }
 
-  function handleClickSave(item, editText) {
+  function handleClickSave(id, editText) {
 
     
-    setItems(items.map((lista) => (lista.id === item.id ? {...lista, testo: editText} : lista)));
+    setItems(items.map((item) => (item.id === id ? {...item, testo: editText} : item)));
     setEditingId(null)
 
   

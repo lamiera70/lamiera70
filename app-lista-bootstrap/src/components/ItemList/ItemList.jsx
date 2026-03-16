@@ -46,17 +46,17 @@ function ItemList({
 
                 <button
                   className="btn btn-danger btn-sm ms-2"
-                  onClick={() => handleClickDelete(item)}>
+                  onClick={() => handleClickDelete(item.id)}>
                   Elimina
                 </button>
                 <button
                   className="btn btn-secondary btn-sm ms-2"
-                  onClick={() => handleClickCancel(item)}>
+                  onClick={() => handleClickCancel(item.id)}>
                   Annulla
                 </button>
                 <button
                   className= "btn btn-success btn-sm ms-2"
-                  onClick={() => handleClickSave(item, editText)}>
+                  onClick={() => handleClickSave(item.id, editText)}>
                   Salva
                 </button>
                 
