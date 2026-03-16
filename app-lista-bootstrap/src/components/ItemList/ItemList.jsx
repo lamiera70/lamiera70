@@ -6,6 +6,7 @@ function ItemList({
    editText,
    setEditText,
    editingId,
+   handleToggleDone,
    handleClickDelete,
    handleClickSave,
    handleClickEditId,
@@ -28,7 +29,18 @@ function ItemList({
           
           {editingId !== item.id ? (
             <>
-              {item.testo}
+
+            <input
+              className="form-check-input me-1"
+              type="checkbox"
+              checked={item.done}
+              onChange={() => handleToggleDone(item.id)}
+            />
+
+              <span className={item.done ? "text-decoration-line-through text-muted" : ""}>
+                {item.testo}
+              </span>
+              
               <button 
                 className="btn btn-info btn-sm"
                 onClick={() => handleClickEditId(item)}>
@@ -37,6 +49,7 @@ function ItemList({
             </>
           ) : (
             <>
+              
               <div className="mb-3">
 
                 <input

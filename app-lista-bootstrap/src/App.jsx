@@ -12,7 +12,13 @@ export default function App() {
   
   
   function addItem(text) {
-    setItems([...items, { id: crypto.randomUUID(), testo: text }]);
+    setItems([...items, { id: crypto.randomUUID(), testo: text, done: false }]);
+  }
+
+  function handleToggleDone(id) {
+
+    setItems(items.map((item) => item.id === id ? { ...item, done: !item.done } : item));
+
   }
 
 
@@ -77,7 +83,7 @@ export default function App() {
               <ItemList
                items={items}
                handleClickEditId={handleClickEditId}
-               
+               handleToggleDone={handleToggleDone}
                handleClickCancel={handleClickCancel}
                handleClickDelete={handleClickDelete}
                handleClickSave={handleClickSave}
