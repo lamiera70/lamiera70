@@ -20,10 +20,10 @@ function ItemList({
         <li
           key={item.id}
           className={
-            editingId === item.id
-              ? "list-group-item"
-              : "list-group-item d-flex justify-content-between align-items-center"
-          }
+          editingId === item.id
+            ? "list-group-item"
+            : "list-group-item d-flex justify-content-between align-items-center"
+        }
         >
           
           {editingId !== item.id ? (
