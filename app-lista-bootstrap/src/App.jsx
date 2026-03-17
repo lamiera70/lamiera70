@@ -67,6 +67,43 @@ export default function App() {
 
   }
 
+
+  function saveList() {
+
+  const name = prompt("Nome della lista:");
+
+  if (!name) return;
+
+  localStorage.setItem(name, JSON.stringify(items));
+
+  }
+
+
+  function loadList() {
+
+  const name = prompt("Nome della lista da caricare:");
+
+  if (!name) return;
+
+  const data = localStorage.getItem(name);
+
+  if (data) {
+    setItems(JSON.parse(data));
+  } else {
+    alert("Lista non trovata");
+  }
+
+  }
+
+
+  function clearList() {
+
+  if (confirm("Vuoi cancellare la lista?")) {
+    setItems([]);
+  }
+
+  }
+
   
 
   return (
@@ -76,7 +113,12 @@ export default function App() {
           <div className="col-12 col-md-8 col-lg-6">
             <div className="card p-4 shadow-sm">
 
-              <Header message="Lista della spesa" />
+              <Header
+                message="Lista della spesa"
+                saveList={saveList}
+                loadList={loadList}
+                clearList={clearList}
+               />
 
               <AddItem addItem={addItem} />
 
