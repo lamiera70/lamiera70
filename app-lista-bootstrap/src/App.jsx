@@ -114,7 +114,7 @@ export default function App() {
             <div className="card p-4 shadow-sm">
 
               <Header
-                message="Lista della spesa"
+                message="Lista"
                 saveList={saveList}
                 loadList={loadList}
                 clearList={clearList}
