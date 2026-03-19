@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header({ message, saveList, loadList, clearList }) {
+export default function Header({ message, saveList, loadList, clearList, setShowModal }) {
   return (
 
     <nav className="navbar bg-body-tertiary mb-4">
@@ -22,7 +22,7 @@ export default function Header({ message, saveList, loadList, clearList }) {
 
           <button
             className="btn btn-primary btn-sm me-2"
-            onClick={loadList}
+            onClick={() => setShowModal(true)}
           >
             Apri
           </button>

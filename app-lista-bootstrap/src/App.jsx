@@ -8,19 +8,19 @@ export default function App() {
   const [items, setItems] = useState([]);
   const [editText, setEditText] = useState("");
   const [editingId, setEditingId] = useState(null);
+  const [showModal, setShowModal] = useState(false);
 
-  
-  
   function addItem(text) {
     setItems([...items, { id: crypto.randomUUID(), testo: text, done: false }]);
   }
 
   function handleToggleDone(id) {
-
-    setItems(items.map((item) => item.id === id ? { ...item, done: !item.done } : item));
-
+    setItems(
+      items.map((item) =>
+        item.id === id ? { ...item, done: !item.done } : item
+      )
+    );
   }
-
 
   function handleClickEditId(item) {
     setEditingId(item.id);
@@ -28,83 +28,60 @@ export default function App() {
   }
 
   function handleClickCancel() {
-
-    setEditingId(null)
-    setEditText("")
-   
-
+    setEditingId(null);
+    setEditText("");
   }
 
-  // function handleClickdefinire(item) {
-
-  //   if(listaIdEdit.includes(item.id))
-  //     { setListaIDEdit(listaIdEdit.filter(lista => lista !== item.id))
-  //     } else {
-  //       setListaIDEdit([...listaIdEdit, item.id])
-  //     }
-
-  // }
-  
-  
-  
-  
-  
-  
   function handleClickDelete(id) {
-    
-    
-    setItems(items.filter(item => item.id !== id ))
-
+    setItems(items.filter((item) => item.id !== id));
   }
 
   function handleClickSave(id, editText) {
-
-    
-    setItems(items.map((item) => (item.id === id ? {...item, testo: editText} : item)));
-    setEditingId(null)
-
-  
-
+    setItems(
+      items.map((item) =>
+        item.id === id ? { ...item, testo: editText } : item
+      )
+    );
+    setEditingId(null);
   }
 
-
+  
   function saveList() {
+  const keys = Object.keys(localStorage);
 
-  const name = prompt("Nome della lista:");
+  const name = prompt(
+    "Salva lista\n\nListe esistenti:\n" + keys.join("\n")
+  )?.trim();
 
   if (!name) return;
+
+  // controllo duplicato
+  if (localStorage.getItem(name)) {
+    alert("⚠️ Esiste già una lista con questo nome!");
+    return;
+  }
 
   localStorage.setItem(name, JSON.stringify(items));
 
+  // apre la modal dopo salvataggio
+  alert("✅ Lista salvata!");
+ }
+
+
+  function deleteList(name) {
+    if (confirm("Vuoi eliminare questa lista?")) {
+      localStorage.removeItem(name);
+      // forza refresh
+      setShowModal(false);
+      setTimeout(() => setShowModal(true), 0);
+    }
   }
-
-
-  function loadList() {
-
-  const name = prompt("Nome della lista da caricare:");
-
-  if (!name) return;
-
-  const data = localStorage.getItem(name);
-
-  if (data) {
-    setItems(JSON.parse(data));
-  } else {
-    alert("Lista non trovata");
-  }
-
-  }
-
 
   function clearList() {
-
-  if (confirm("Vuoi cancellare la lista?")) {
-    setItems([]);
+    if (confirm("Vuoi cancellare la lista?")) {
+      setItems([]);
+    }
   }
-
-  }
-
-  
 
   return (
     <>
@@ -116,30 +93,60 @@ export default function App() {
               <Header
                 message="Lista"
                 saveList={saveList}
-                loadList={loadList}
                 clearList={clearList}
-               />
+                setShowModal={setShowModal}
+              />
 
               <AddItem addItem={addItem} />
 
               <ItemList
-               items={items}
-               handleClickEditId={handleClickEditId}
-               handleToggleDone={handleToggleDone}
-               handleClickCancel={handleClickCancel}
-               handleClickDelete={handleClickDelete}
-               handleClickSave={handleClickSave}
-               editText={editText}
-               editingId={editingId}
-               setEditText={setEditText}
-               
-              
+                items={items}
+                handleClickEditId={handleClickEditId}
+                handleToggleDone={handleToggleDone}
+                handleClickCancel={handleClickCancel}
+                handleClickDelete={handleClickDelete}
+                handleClickSave={handleClickSave}
+                editText={editText}
+                editingId={editingId}
+                setEditText={setEditText}
               />
 
             </div>
           </div>
         </div>
       </div>
+
+      {/* MODAL */}
+      {showModal && (
+        <div className="modal-backdrop-custom">
+          <div className="modal-content-custom">
+
+            <h5 className="mb-3">Seleziona lista</h5>
+
+            {Object.keys(localStorage).length === 0 ? (
+              <p>Nessuna lista salvata</p>
+            ) : (
+              Object.keys(localStorage).map((key) => (
+                <div
+                  key={key}
+                  className="list-item-modal"
+                  onClick={() => loadList(key)}
+                >
+                  {key}
+                </div>
+              ))
+            )}
+
+            <button
+              className="btn btn-secondary mt-3 w-100"
+              onClick={() => setShowModal(false)}
+            >
+              Chiudi
+            </button>
+
+          </div>
+        </div>
+      )}
     </>
   );
 }

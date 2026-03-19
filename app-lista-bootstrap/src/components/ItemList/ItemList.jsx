@@ -12,6 +12,24 @@ function ItemList({
   handleClickCancel
 }) {
 
+  const suggestions = [
+    "pollo",
+    "pomodori",
+    "porri",
+    "pane",
+    "pasta",
+    "pizza",
+    "prosciutto",
+    "capocollo",
+  ];
+
+  const filtered =
+    editText.length > 1
+      ? suggestions.filter((s) =>
+          s.toLowerCase().includes(editText.toLowerCase())
+        )
+      : [];
+
   return (
     <ul className="list-group">
       {items.map((item) => (
@@ -26,7 +44,6 @@ function ItemList({
         >
 
           {editingId !== item.id ? (
-
             <>
               <div className="d-flex align-items-center gap-2">
 
@@ -52,20 +69,32 @@ function ItemList({
                 </button>
               )}
             </>
-
           ) : (
 
-            <div className="mb-3">
+            <div className="position-relative">
 
               <input
                 type="text"
-                className="form-control mb-2"
-                placeholder="Inserisci prodotto"
+                className="form-control"
                 value={editText}
                 onChange={(e) => setEditText(e.target.value)}
               />
 
-              <div className="text-end">
+              {filtered.length > 0 && (
+                <ul className="list-group suggestion-box mt-1">
+                  {filtered.map((s, index) => (
+                    <li
+                      key={index}
+                      className="list-group-item suggestion"
+                      onClick={() => setEditText(s)}
+                    >
+                      {s}
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              <div className="text-end mt-2">
 
                 <button
                   className="btn btn-danger btn-sm me-2"
@@ -76,7 +105,7 @@ function ItemList({
 
                 <button
                   className="btn btn-secondary btn-sm me-2"
-                  onClick={() => handleClickCancel(item.id)}
+                  onClick={handleClickCancel}
                 >
                   Annulla
                 </button>
