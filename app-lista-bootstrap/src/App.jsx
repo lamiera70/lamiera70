@@ -9,6 +9,7 @@ export default function App() {
   const [editText, setEditText] = useState("");
   const [editingId, setEditingId] = useState(null);
   const [showModal, setShowModal] = useState(false);
+  const [listName, setListName] = useState("");
 
   const suggestions = [
     "pollo",
@@ -40,8 +41,8 @@ export default function App() {
   function handleToggleDone(id) {
     setItems(
       items.map((item) =>
-        item.id === id ? { ...item, done: !item.done } : item
-      )
+        item.id === id ? { ...item, done: !item.done } : item,
+      ),
     );
   }
 
@@ -62,56 +63,56 @@ export default function App() {
   function handleClickSave(id, editText) {
     setItems(
       items.map((item) =>
-        item.id === id ? { ...item, testo: editText } : item
-      )
+        item.id === id ? { ...item, testo: editText } : item,
+      ),
     );
     setEditingId(null);
   }
 
-  
   function loadList(name) {
-  const data = localStorage.getItem(name);
+    const data = localStorage.getItem(name);
 
-  if (data) {
-    setItems(JSON.parse(data));
-    setShowModal(false);
+    if (data) {
+      setItems(JSON.parse(data));
+      setListName(name);
+      setShowModal(false);
+    }
   }
-  }
-
 
   function saveList() {
-  const keys = Object.keys(localStorage);
+    const keys = Object.keys(localStorage);
 
-  const name = prompt(
-    "Salva lista\n\nListe esistenti:\n" + keys.join("\n")
-  )?.trim();
+    const name = prompt(
+      "Salva lista\n\nListe esistenti:\n" + keys.join("\n"),
+    )?.trim();
 
-  if (!name) return;
+    if (!name) return;
 
-  // controllo duplicato
-  if (localStorage.getItem(name)) {
-    alert("⚠️ Esiste già una lista con questo nome!");
-    return;
+    // controllo duplicato
+    if (localStorage.getItem(name)) {
+      alert("⚠️ Esiste già una lista con questo nome!");
+      return;
+    }
+
+    localStorage.setItem(name, JSON.stringify(items));
+    setListName(name);
+
+    // apre la modal dopo salvataggio
+    // alert("✅ Lista salvata!");
   }
 
-  localStorage.setItem(name, JSON.stringify(items));
-
-  // apre la modal dopo salvataggio
-  alert("✅ Lista salvata!");
- }
-
-
- function deleteList(name) {
-  if (confirm("Vuoi eliminare questa lista?")) {
-    localStorage.removeItem(name);
-    setShowModal(false);
-    setTimeout(() => setShowModal(true), 0);
-  }
+  function deleteList(name) {
+    if (confirm("Vuoi eliminare questa lista?")) {
+      localStorage.removeItem(name);
+      setShowModal(false);
+      setTimeout(() => setShowModal(true), 0);
+    }
   }
 
   function clearList() {
     if (confirm("Vuoi cancellare la lista?")) {
       setItems([]);
+      setListName("");
     }
   }
 
@@ -121,18 +122,14 @@ export default function App() {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="card p-4 shadow-sm">
-
               <Header
-                message="Lista"
+                listName={listName}
                 saveList={saveList}
                 clearList={clearList}
                 setShowModal={setShowModal}
               />
 
-              <AddItem
-                addItem={addItem}
-                suggestions={suggestions}
-              />
+              <AddItem addItem={addItem} suggestions={suggestions} />
 
               <ItemList
                 items={items}
@@ -146,7 +143,6 @@ export default function App() {
                 setEditText={setEditText}
                 suggestions={suggestions}
               />
-
             </div>
           </div>
         </div>
@@ -156,7 +152,6 @@ export default function App() {
       {showModal && (
         <div className="modal-backdrop-custom">
           <div className="modal-content-custom">
-
             <h5 className="mb-3">Seleziona lista</h5>
 
             {Object.keys(localStorage).length === 0 ? (
@@ -175,7 +170,7 @@ export default function App() {
                   </span>
 
                   <button
-                    className="btn btn-outline-danger btn-sm"
+                    className="btn btn-danger btn-sm"
                     onClick={(e) => {
                       e.stopPropagation(); // 🔥 evita conflitti
                       deleteList(key);
@@ -193,7 +188,6 @@ export default function App() {
             >
               Chiudi
             </button>
-
           </div>
         </div>
       )}

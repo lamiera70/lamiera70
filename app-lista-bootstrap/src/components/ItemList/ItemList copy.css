@@ -1,0 +1,15 @@
+.suggestion-box {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.suggestion {
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f1f1f1;
+}

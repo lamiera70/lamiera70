@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header({ message, saveList, clearList, setShowModal }) {
+export default function Header({ listName, saveList, clearList, setShowModal }) {
   return (
 
     <nav className="navbar bg-body-tertiary mb-4">
@@ -8,17 +8,19 @@ export default function Header({ message, saveList, clearList, setShowModal }) {
       <div className="container-fluid position-relative">
 
         <span className="navbar-brand">
-          {message}
+          {listName || "Lista nuova"}
         </span>
 
         <div className="position-absolute end-0">
 
-          <button
-            className="btn btn-success btn-sm me-2"
-            onClick={saveList}
-          >
-            Salva
-          </button>
+          {listName === "" && (
+            <button
+              className="btn btn-success btn-sm me-2"
+              onClick={saveList}
+            >
+              Salva
+            </button>
+          )}
 
           <button
             className="btn btn-primary btn-sm me-2"
