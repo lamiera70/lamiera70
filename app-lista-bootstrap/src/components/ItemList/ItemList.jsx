@@ -9,20 +9,11 @@ function ItemList({
   handleClickDelete,
   handleClickSave,
   handleClickEditId,
-  handleClickCancel
+  handleClickCancel,
+  suggestions
 }) {
 
-  const suggestions = [
-    "pollo",
-    "pomodori",
-    "porri",
-    "pane",
-    "pasta",
-    "pizza",
-    "prosciutto",
-    "capocollo",
-  ];
-
+  
   const filtered =
     editText.length > 1
       ? suggestions.filter((s) =>

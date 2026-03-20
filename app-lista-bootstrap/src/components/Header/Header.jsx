@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header({ message, saveList, loadList, clearList, setShowModal }) {
+export default function Header({ message, saveList, clearList, setShowModal }) {
   return (
 
     <nav className="navbar bg-body-tertiary mb-4">

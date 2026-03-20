@@ -1,32 +1,11 @@
 import { useState } from "react";
 import "./AddItem.css";
 
-function AddItem({ addItem }) {
+function AddItem({ addItem, suggestions }) {
   
   const [text, setText] = useState("");
 
-  const suggestions = [
-    "pollo",
-    "pomodori",
-    "porri",
-    "pane",
-    "pasta",
-    "tavor 1mg",
-    "tachipirina 500",
-    "tachipirina 1000",
-    "collirio ozodrop",
-    "collirio alocross gocce",
-    "patatine",
-    "limoni",
-    "candeggina",
-    "aceto domestico",
-    "detersivo nelsen verde",
-    "detersivo dash classico",
-    "prosciutto raspini",
-    "pizza",
-    "prosciutto",
-    "capocollo",
-  ];
+  
 
   const filtered =
     text.length > 1

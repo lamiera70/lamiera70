@@ -10,6 +10,29 @@ export default function App() {
   const [editingId, setEditingId] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
+  const suggestions = [
+    "pollo",
+    "pomodori",
+    "porri",
+    "pane",
+    "pasta",
+    "tavor 1mg",
+    "tachipirina 500",
+    "tachipirina 1000",
+    "collirio ozodrop",
+    "collirio alocross gocce",
+    "patatine",
+    "limoni",
+    "candeggina",
+    "aceto domestico",
+    "detersivo nelsen verde",
+    "detersivo dash classico",
+    "prosciutto raspini",
+    "pizza",
+    "prosciutto",
+    "capocollo",
+  ];
+
   function addItem(text) {
     setItems([...items, { id: crypto.randomUUID(), testo: text, done: false }]);
   }
@@ -46,6 +69,16 @@ export default function App() {
   }
 
   
+  function loadList(name) {
+  const data = localStorage.getItem(name);
+
+  if (data) {
+    setItems(JSON.parse(data));
+    setShowModal(false);
+  }
+  }
+
+
   function saveList() {
   const keys = Object.keys(localStorage);
 
@@ -97,7 +130,10 @@ export default function App() {
                 setShowModal={setShowModal}
               />
 
-              <AddItem addItem={addItem} />
+              <AddItem
+                addItem={addItem}
+                suggestions={suggestions}
+              />
 
               <ItemList
                 items={items}
@@ -109,6 +145,7 @@ export default function App() {
                 editText={editText}
                 editingId={editingId}
                 setEditText={setEditText}
+                suggestions={suggestions}
               />
 
             </div>
