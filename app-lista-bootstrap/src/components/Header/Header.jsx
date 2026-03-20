@@ -1,11 +1,21 @@
 import "./Header.css";
 
-export default function Header({ listName, saveList, clearList, setShowModal }) {
+export default function Header({ listName, saveList, clearList, setShowModal, setShowSuggestionsModal }) {
   return (
 
     <nav className="navbar bg-body-tertiary mb-4">
 
+        <button
+          className="btn btn-dark btn-sm me-2"
+          onClick={() => setShowSuggestionsModal(true)}
+        >
+          Suggerimenti
+        </button>
+
+        
+
       <div className="container-fluid position-relative">
+
 
         <span className="navbar-brand">
           {listName || "Lista nuova"}

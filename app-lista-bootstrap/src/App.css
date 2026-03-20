@@ -24,6 +24,9 @@ body {
   border-radius: 10px;
   width: 300px;
 
+  max-height: 80vh;       /* 🔥 limita altezza */
+  overflow-y: auto;       /* 🔥 scroll verticale */
+
   z-index: 10000;
 }
 
