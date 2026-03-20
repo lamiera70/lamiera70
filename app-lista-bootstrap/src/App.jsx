@@ -101,13 +101,12 @@ export default function App() {
  }
 
 
-  function deleteList(name) {
-    if (confirm("Vuoi eliminare questa lista?")) {
-      localStorage.removeItem(name);
-      // forza refresh
-      setShowModal(false);
-      setTimeout(() => setShowModal(true), 0);
-    }
+ function deleteList(name) {
+  if (confirm("Vuoi eliminare questa lista?")) {
+    localStorage.removeItem(name);
+    setShowModal(false);
+    setTimeout(() => setShowModal(true), 0);
+  }
   }
 
   function clearList() {
@@ -166,10 +165,24 @@ export default function App() {
               Object.keys(localStorage).map((key) => (
                 <div
                   key={key}
-                  className="list-item-modal"
-                  onClick={() => loadList(key)}
+                  className="list-item-modal d-flex justify-content-between align-items-center"
                 >
-                  {key}
+                  <span
+                    onClick={() => loadList(key)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    {key}
+                  </span>
+
+                  <button
+                    className="btn btn-outline-danger btn-sm"
+                    onClick={(e) => {
+                      e.stopPropagation(); // 🔥 evita conflitti
+                      deleteList(key);
+                    }}
+                  >
+                    Elimina
+                  </button>
                 </div>
               ))
             )}
