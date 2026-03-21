@@ -10,8 +10,7 @@ export default function App() {
   const [editingId, setEditingId] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [listName, setListName] = useState("");
-  const [showSuggestionsModal, setShowSuggestionsModal] = useState(false);
-  const [newSuggestion, setNewSuggestion] = useState("");
+  
   
   const [suggestions, setSuggestions] = useState(() => {
     const saved = localStorage.getItem("suggestions");
@@ -100,8 +99,8 @@ export default function App() {
   }
 
   function saveList() {
-    const keys = Object.keys(localStorage)
-      .filter((key) => key !== "suggestions");
+    const keys = Object.keys(localStorage);
+      
 
     const name = prompt(
       "Salva lista\n\nListe esistenti:\n" + keys.join("\n"),
@@ -118,8 +117,7 @@ export default function App() {
     localStorage.setItem(name, JSON.stringify(items));
     setListName(name);
 
-    // apre la modal dopo salvataggio
-    // alert("✅ Lista salvata!");
+   
   }
 
   function deleteList(name) {
@@ -137,21 +135,7 @@ export default function App() {
     }
   }
 
-  function addSuggestion() {
-    const cleaned = newSuggestion.trim();
-    if (cleaned === "") return;
-
-    const normalized = cleaned.toLowerCase();
-
-    if (suggestions.some((s) => s.toLowerCase() === normalized)) {
-      alert("Già presente");
-      return;
-    }
-
-    setSuggestions([...suggestions, cleaned]);
-
-    setNewSuggestion("");
-  }
+  
 
   return (
     <>
@@ -164,7 +148,7 @@ export default function App() {
                 saveList={saveList}
                 clearList={clearList}
                 setShowModal={setShowModal}
-                setShowSuggestionsModal={setShowSuggestionsModal}
+                
               />
 
               <AddItem addItem={addItem} suggestions={suggestions} />
@@ -196,7 +180,6 @@ export default function App() {
               <p>Nessuna lista salvata</p>
             ) : (
               Object.keys(localStorage)
-                .filter((key) => key !== "suggestions")
                 .map((key) => (
                 <div
                   key={key}
@@ -232,54 +215,7 @@ export default function App() {
         </div>
       )}
 
-      {showSuggestionsModal && (
-        <div className="modal-backdrop-custom">
-          <div className="modal-content-custom">
-            <h5 className="mb-3">Suggerimenti</h5>
-
-            <div className="d-flex mb-3">
-              <input
-                type="text"
-                className="form-control me-2"
-                placeholder="Nuovo"
-                value={newSuggestion}
-                onChange={(e) => setNewSuggestion(e.target.value)}
-              />
-
-              <button className="btn btn-success" onClick={addSuggestion}>
-                Aggiungi
-              </button>
-            </div>
-
-            {[...suggestions]
-              .sort((a, b) => a.localeCompare(b))
-              .map((s, index) => (
-              <div
-                key={index}
-                className="d-flex justify-content-between align-items-center mb-2"
-              >
-                <span>{s}</span>
-
-                <button
-                  className="btn btn-danger btn-sm"
-                  onClick={() => {
-                    setSuggestions(suggestions.filter((_, i) => i !== index));
-                  }}
-                >
-                  Elimina
-                </button>
-              </div>
-            ))}
-
-            <button
-              className="btn btn-secondary mt-3 w-100"
-              onClick={() => setShowSuggestionsModal(false)}
-            >
-              Chiudi
-            </button>
-          </div>
-        </div>
-      )}
+ 
     </>
   );
 }
