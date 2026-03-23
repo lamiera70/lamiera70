@@ -1,11 +1,28 @@
 import "./ItemList.css";
 
-export default function ItemList() {
+export default function ItemList({items}) {
   return (
 
     <>
+{/* 
+      <ul className="list-group">
 
-      <p>ItemList</p>
+        {items.map((item) => (
+
+          <li
+            key={item}
+            className="list-group-item"
+          >
+
+            {item}
+
+            
+
+          </li>
+
+        ))}
+
+    </ul> */}
     
     </>
 

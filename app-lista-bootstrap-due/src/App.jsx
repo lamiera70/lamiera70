@@ -1,10 +1,24 @@
 
+import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import AddItem from './components/AddItem/AddItem'
 import ItemList from './components/ItemList/ItemList'
 
 export default function App() {
+
+  const [items, setItems] = useState([])
+
+  function addItem(text) {
+    
+    console.log(`items iniziale ${items}`)
+    alert(`testo da inserire ${text}`)
+    setItems([...items, text])
+    console.log(items)
+    
+   
+
+  }
  
 
   return (
@@ -18,10 +32,34 @@ export default function App() {
           <div className="card p-4 shadow-sm">
 
             <Header message={"Lista della spesa"}/>
-            
-            <AddItem />
+       
+          </div>
 
-            <ItemList />
+        </div>
+
+      </div>
+
+       <div className="row justify-content-center">
+
+        <div className="col-12 col-md-8 col-lg-6">
+
+          <div className="card p-4 shadow-sm">
+                
+            <AddItem addText={addItem}/>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <div className="row justify-content-center">
+
+        <div className="col-12 col-md-8 col-lg-6">
+
+          <div className="card p-4 shadow-sm">
+
+            <ItemList items={items}/>
 
           </div>
 

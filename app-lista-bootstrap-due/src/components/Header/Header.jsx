@@ -5,9 +5,9 @@ export default function Header({message}) {
 
     <>
 
-      <h2 className="text-center mb-4">
+      <h3 className="text-center">
           {message}
-      </h2>
+      </h3>
     
     </>
 
