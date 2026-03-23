@@ -10,13 +10,8 @@ export default function App() {
   const [items, setItems] = useState([])
 
   function addItem(text) {
-    
-    console.log(`items iniziale ${items}`)
-    alert(`testo da inserire ${text}`)
-    setItems([...items, text])
-    console.log(items)
-    
-   
+    const newItem = {id: crypto.randomUUID(), testo: text}
+    setItems([...items, newItem])
 
   }
  

@@ -7,6 +7,7 @@ export default function AddItem({addText}) {
 
   function handleAdd(text) {
     addText(text)
+    setText("")
   }
 
   

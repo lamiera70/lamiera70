@@ -4,27 +4,30 @@ export default function ItemList({items}) {
   return (
 
     <>
-{/* 
+
       <ul className="list-group">
 
-        {items.map((item) => (
+        {items.length !== 0 && 
 
-          <li
-            key={item}
-            className="list-group-item"
-          >
-
-            {item}
-
-            
-
-          </li>
-
-        ))}
-
-    </ul> */}
+            items.map((item) => (
+    
+              <li
+                key={item.id}
+                className="list-group-item"
+              >
+    
+                {item.testo}
+    
+                
+    
+              </li>
+    
+            ))}
+         
+    </ul>
     
     </>
 
   );
 }
+
