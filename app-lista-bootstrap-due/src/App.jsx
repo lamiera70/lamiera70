@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import AddItem from './components/AddItem/AddItem'
@@ -9,10 +9,23 @@ export default function App() {
 
   const [items, setItems] = useState([])
 
+  useEffect(() => {
+    if (items.length !== 0) {
+      
+      const data = JSON.parse(localStorage.getItem('localItems'))
+      console.log(data)
+    }
+     
+  }, [])
+  
+  useEffect(() => {
+    localStorage.setItem('localItems', JSON.stringify(items))
+     
+  }, [items])
+
   function addItem(text) {
     const newItem = {id: crypto.randomUUID(), testo: text}
     setItems([...items, newItem])
-
   }
  
 
