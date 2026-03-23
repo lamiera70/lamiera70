@@ -7,7 +7,7 @@ export default function ItemList({items}) {
 
       <ul className="list-group">
 
-        {items.length !== 0 && 
+        {items && 
 
             items.map((item) => (
     

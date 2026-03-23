@@ -7,16 +7,21 @@ import ItemList from './components/ItemList/ItemList'
 
 export default function App() {
 
-  const [items, setItems] = useState([])
-
-  useEffect(() => {
-    if (items.length !== 0) {
-      
+  const [items, setItems] = useState(
+    () => {
       const data = JSON.parse(localStorage.getItem('localItems'))
       console.log(data)
     }
+  )
+
+  // useEffect(() => {
+  //   if (items.length === 0) {
+      
+  //     const data = JSON.parse(localStorage.getItem('localItems'))
+  //     console.log(data)
+  //   }
      
-  }, [])
+  // }, [])
   
   useEffect(() => {
     localStorage.setItem('localItems', JSON.stringify(items))
