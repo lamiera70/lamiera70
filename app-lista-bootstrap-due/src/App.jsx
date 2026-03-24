@@ -9,9 +9,9 @@ export default function App() {
 
   const [items, setItems] = useState([])
   
-    
   
-
+  
+  
   useEffect(() => {
         
       
@@ -36,6 +36,14 @@ export default function App() {
 
      
   }, [items])
+
+  function editItem(id) {
+    
+    setSelectId(id)
+   
+    
+
+  }
 
   
 
@@ -78,7 +86,7 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <ItemList items={items} />
+            <ItemList items={items}/>
 
           </div>
 

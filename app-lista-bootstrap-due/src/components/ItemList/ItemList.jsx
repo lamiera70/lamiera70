@@ -4,10 +4,15 @@ import "./ItemList.css";
 export default function ItemList({items}) {
 
   const [isEdit, setIsEdit] = useState(false)
+  const [selectId, setSelectId] = useState([])
 
 
-  function handleEdit() {
-    setIsEdit(!isEdit)
+  function handleEdit(id) {
+    setSelectId(id)
+  }
+
+  function handleUndoEdit() {
+    setSelectId([])
   }
 
   
@@ -22,7 +27,7 @@ export default function ItemList({items}) {
 
             items.map((item) => (
     
-              isEdit ? (
+              selectId === item.id ? (
 
                    <li 
                   key={item.id}
@@ -36,13 +41,13 @@ export default function ItemList({items}) {
                   <button 
                     type="button"
                     className="btn btn-info"
-                    onClick={handleEdit}
+                    
                   >salva</button>
 
                   <button 
                     type="button"
                     className="btn btn-info"
-                    onClick={handleEdit}
+                    onClick={() => handleUndoEdit()}
                   >annulla</button>
                 </li>
 
@@ -60,7 +65,7 @@ export default function ItemList({items}) {
                   <button 
                     type="button"
                     className="btn btn-info"
-                    onClick={handleEdit}
+                    onClick={() => handleEdit(item.id)}
                   >modifica</button>
                 </li>
               )
