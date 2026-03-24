@@ -3,7 +3,6 @@ import "./ItemList.css";
 
 export default function ItemList({items}) {
 
-  const [isEdit, setIsEdit] = useState(false)
   const [selectId, setSelectId] = useState([])
 
 
