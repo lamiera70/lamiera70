@@ -12,6 +12,7 @@ export default function App() {
   
   
   
+  
   useEffect(() => {
         
       
@@ -23,7 +24,7 @@ export default function App() {
   
   
   function addItem(text) {
-    const newItem = {id: crypto.randomUUID(), testo: text}
+    const newItem = {id: crypto.randomUUID(), testo: text, isCheck: false}
     setItems([...items, newItem])
   }
   
@@ -37,9 +38,9 @@ export default function App() {
      
   }, [items])
 
-  function editItem(id) {
+  function checkItem(id) {
     
-    setSelectId(id)
+    setItems([...items, isCheck: true])
    
     
 
@@ -86,7 +87,7 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <ItemList items={items}/>
+            <ItemList items={items} setIsCheck={checkItem}/>
 
           </div>
 
