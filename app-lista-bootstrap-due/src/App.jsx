@@ -9,9 +9,7 @@ export default function App() {
 
   const [items, setItems] = useState([])
   
-  
-  
-  
+    
   
   useEffect(() => {
         
@@ -38,9 +36,9 @@ export default function App() {
      
   }, [items])
 
-  function checkItem(id) {
+  function checkItem(item) {
     
-    setItems([...items, isCheck: true])
+    
    
     
 

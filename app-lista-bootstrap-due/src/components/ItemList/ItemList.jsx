@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./ItemList.css";
 
-export default function ItemList({items, setIsCheck}) {
+export default function ItemList({items}) {
 
   
   const [selectId, setSelectId] = useState([])
@@ -16,8 +16,8 @@ export default function ItemList({items, setIsCheck}) {
     setSelectId([])
   }
 
-  function chechEdit(id) {
-    setIsCheck(id)
+  function chechEdit(item) {
+    
   }
 
   
@@ -45,7 +45,7 @@ export default function ItemList({items, setIsCheck}) {
                     onChange={(e) => 
                     {
                       setIsCheck(e.target.checked)
-                      chechEdit(item.id)
+                      chechEdit(item)
                     }
 
                     
