@@ -7,32 +7,38 @@ import ItemList from './components/ItemList/ItemList'
 
 export default function App() {
 
-  const [items, setItems] = useState(
-    () => {
-      const data = JSON.parse(localStorage.getItem('localItems'))
-      console.log(data)
-    }
-  )
-
-  // useEffect(() => {
-  //   if (items.length === 0) {
-      
-  //     const data = JSON.parse(localStorage.getItem('localItems'))
-  //     console.log(data)
-  //   }
-     
-  // }, [])
+  const [items, setItems] = useState([])
   
-  useEffect(() => {
-    localStorage.setItem('localItems', JSON.stringify(items))
-     
-  }, [items])
+    
+  
 
+  useEffect(() => {
+        
+      
+    const data = JSON.parse(localStorage.getItem('localItems')) || []
+       
+    setItems(data)
+   
+  }, [])
+  
+  
   function addItem(text) {
     const newItem = {id: crypto.randomUUID(), testo: text}
     setItems([...items, newItem])
   }
- 
+  
+  useEffect(() => {
+
+    if (items.length !== 0) {
+
+      localStorage.setItem('localItems', JSON.stringify(items))
+    }
+
+     
+  }, [items])
+
+  
+
 
   return (
     <>
@@ -72,7 +78,7 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <ItemList items={items}/>
+            <ItemList items={items} />
 
           </div>
 
