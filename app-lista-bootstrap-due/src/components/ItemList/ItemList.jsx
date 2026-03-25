@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./ItemList.css";
 
-export default function ItemList({items}) {
+export default function ItemList({items, handleCheck}) {
 
   
   const [selectId, setSelectId] = useState([])
-  const [isCheck, setIsCheck] = useState(false)
+  
 
 
   function handleEdit(id) {
@@ -16,11 +16,7 @@ export default function ItemList({items}) {
     setSelectId([])
   }
 
-  function chechEdit(item) {
     
-  }
-
-  
 
   return (
 
@@ -41,15 +37,8 @@ export default function ItemList({items}) {
                   <input 
                     className="form-check-input me-2"
                     type="checkbox"
-                    checked={isCheck}
-                    onChange={(e) => 
-                    {
-                      setIsCheck(e.target.checked)
-                      chechEdit(item)
-                    }
-
-                    
-                    }
+                    checked={item.isCheck}
+                    onChange={() => handleCheck(item.id)}
                   />
                   
                   {item.testo}
@@ -77,8 +66,8 @@ export default function ItemList({items}) {
                   <input 
                     className="form-check-input me-2"
                     type="checkbox"
-                    checked={isCheck}
-                    onChange={(e) => setIsCheck(e.target.checked)}
+                    checked={item.isCheck}
+                    onChange={() => handleCheck(item.id)}
                   />
                   
                   {item.testo}

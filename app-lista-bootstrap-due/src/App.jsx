@@ -36,15 +36,14 @@ export default function App() {
      
   }, [items])
 
-  function checkItem(item) {
-    
-    
-   
-    
 
+  function handleCheck(id) {
+    
+    setItems(items.map((item) =>
+      item.id === id ? { ...item, isCheck: !item.isCheck } : item ));
   }
 
-  
+ 
 
 
   return (
@@ -85,7 +84,7 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <ItemList items={items} setIsCheck={checkItem}/>
+            <ItemList items={items} handleCheck={handleCheck}/>
 
           </div>
 
