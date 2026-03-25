@@ -6,6 +6,8 @@ export default function AddItem({addText}) {
   const [text, setText] = useState("")
 
   function handleAdd(text) {
+    
+    if (!text.trim()) return
     addText(text)
     setText("")
   }

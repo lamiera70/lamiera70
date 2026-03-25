@@ -8,12 +8,13 @@ import ItemList from './components/ItemList/ItemList'
 export default function App() {
 
   const [items, setItems] = useState([])
+  const [selectId, setSelectId] = useState(null)
+  const [editText, setEditText] = useState("")
   
     
   
   useEffect(() => {
-        
-      
+       
     const data = JSON.parse(localStorage.getItem('localItems')) || []
        
     setItems(data)
@@ -21,20 +22,19 @@ export default function App() {
   }, [])
   
   
+  useEffect(() => {
+
+    localStorage.setItem('localItems', JSON.stringify(items))
+  
+  }, [items])
+
+
   function addItem(text) {
+
     const newItem = {id: crypto.randomUUID(), testo: text, isCheck: false}
     setItems([...items, newItem])
   }
   
-  useEffect(() => {
-
-    if (items.length !== 0) {
-
-      localStorage.setItem('localItems', JSON.stringify(items))
-    }
-
-     
-  }, [items])
 
 
   function handleCheck(id) {
@@ -42,6 +42,26 @@ export default function App() {
     setItems(items.map((item) =>
       item.id === id ? { ...item, isCheck: !item.isCheck } : item ));
   }
+
+  function handleEditText(id, value) {
+    
+    setItems(items.map((item) =>
+      item.id === id ? { ...item, testo: value } : item ));
+    setSelectId(null)
+  }
+
+
+  function handleEditItem(item) {
+
+    setSelectId(item.id)
+    setEditText(item.testo)
+  }
+  
+  function handleDeleteItem(id) {
+
+    setItems(items.filter((item) =>item.id !== id));
+  }
+
 
  
 
@@ -84,7 +104,17 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <ItemList items={items} handleCheck={handleCheck}/>
+            <ItemList
+             items={items}
+             selectId={selectId}
+             editText={editText}
+             setEditText={setEditText}
+             handleCheck={handleCheck}
+             handleEditText={handleEditText}
+             handleEditItem={handleEditItem}
+             handleDeleteItem={handleDeleteItem}
+            
+            />
 
           </div>
 

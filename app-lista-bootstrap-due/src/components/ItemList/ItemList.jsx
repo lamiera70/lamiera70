@@ -1,22 +1,10 @@
 import { useState } from "react";
 import "./ItemList.css";
 
-export default function ItemList({items, handleCheck}) {
+export default function ItemList({items, selectId, editText, setEditText, handleCheck, handleEditText, handleEditItem, handleDeleteItem}) {
 
+ 
   
-  const [selectId, setSelectId] = useState([])
-  
-
-
-  function handleEdit(id) {
-    setSelectId(id)
-  }
-  
-  function handleUndoEdit() {
-    setSelectId([])
-  }
-
-    
 
   return (
 
@@ -24,67 +12,69 @@ export default function ItemList({items, handleCheck}) {
 
       <ul className="list-group">
 
-        {items &&
-
-            items.map((item) => (
+        {items.map((item) => (
     
-              selectId === item.id ? (
+          (selectId === item.id) ? (
 
-                   <li 
-                  key={item.id}
-                  className="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <input 
-                    className="form-check-input me-2"
-                    type="checkbox"
-                    checked={item.isCheck}
-                    onChange={() => handleCheck(item.id)}
-                  />
-                  
-                  {item.testo}
-      
-      
-                  <button 
-                    type="button"
-                    className="btn btn-info"
-                    
-                  >salva</button>
-
-                  <button 
-                    type="button"
-                    className="btn btn-info"
-                    onClick={() => handleUndoEdit()}
-                  >annulla</button>
-                </li>
-
-              ) : (
-
-                <li 
-                  key={item.id}
-                  className="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <input 
-                    className="form-check-input me-2"
-                    type="checkbox"
-                    checked={item.isCheck}
-                    onChange={() => handleCheck(item.id)}
-                  />
-                  
-                  {item.testo}
-      
-      
-                  <button 
-                    type="button"
-                    className="btn btn-info"
-                    onClick={() => handleEdit(item.id)}
-                  >modifica</button>
-                </li>
-              )
+            <li 
+              key={item.id}
+              className="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <input 
+                className="form-check-input me-2"
+                type="checkbox"
+                checked={item.isCheck}
+                onChange={() => handleCheck(item.id)}
+              />
               
-    
-            ))}
+              <input
+                type="text"
+                className="form-control"
+                value={editText}
+                onChange={(e) => setEditText(e.target.value)}
+              />
+
+              <button 
+                type="button"
+                className="btn btn-danger ms-2"
+                onClick={() => handleDeleteItem(item.id)}
+              >elimina</button>
+                  
+              <button 
+                type="button"
+                className="btn btn-success ms-2"
+                onClick={() => handleEditText(item.id, editText)}
+              >salva</button>
+
+            </li>
+
+          ) : (
+
+            <li 
+              key={item.id}
+              className="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <input 
+                className="form-check-input me-2"
+                type="checkbox"
+                checked={item.isCheck}
+                onChange={() => handleCheck(item.id)}
+              />
+              
+              {item.testo}
+  
+  
+              <button 
+                type="button"
+                className="btn btn-info"
+                onClick={() => handleEditItem(item)}
+              >modifica</button>
+            </li>
+          )
+              
+        ))}
          
-    </ul>
+      </ul>
     
     </>
 
