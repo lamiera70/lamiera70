@@ -1,9 +1,8 @@
-import { useState } from "react";
+
 import "./ItemList.css";
 
 export default function ItemList({items, selectId, editText, setEditText, handleCheck, handleEditText, handleEditItem, handleDeleteItem}) {
 
- 
   
 
   return (
@@ -18,7 +17,9 @@ export default function ItemList({items, selectId, editText, setEditText, handle
 
             <li 
               key={item.id}
-              className="list-group-item d-flex justify-content-between align-items-center"
+              className={item.isCheck
+                   ? "list-group-item d-flex justify-content-between align-items-center bg-success-subtle"
+                   : "list-group-item d-flex justify-content-between align-items-center"}
             >
               <input 
                 className="form-check-input me-2"
@@ -50,26 +51,59 @@ export default function ItemList({items, selectId, editText, setEditText, handle
 
           ) : (
 
-            <li 
-              key={item.id}
-              className="list-group-item d-flex justify-content-between align-items-center"
-            >
-              <input 
-                className="form-check-input me-2"
-                type="checkbox"
-                checked={item.isCheck}
-                onChange={() => handleCheck(item.id)}
-              />
-              
-              {item.testo}
-  
-  
-              <button 
-                type="button"
-                className="btn btn-info"
-                onClick={() => handleEditItem(item)}
-              >modifica</button>
-            </li>
+            (item.isCheck) ? (
+                 <div key={item.id} >
+                    <li 
+                      className={item.isCheck
+                        ? "list-group-item d-flex align-items-center bg-success-subtle"
+                        : "list-group-item d-flex align-items-center"}
+                    >
+                    <input 
+                      className="form-check-input me-2"
+                      type="checkbox"
+                      checked={item.isCheck}
+                      onChange={() => handleCheck(item.id)}
+                    />
+                    
+                    <div>
+                      {item.testo}
+
+                    </div>
+        
+                           
+                    </li>
+
+                 </div>
+            ) : (
+
+              <div key={item.id} >
+
+                  <li 
+                    
+                    className={item.isCheck
+                        ? "list-group-item d-flex justify-content-between align-items-center bg-success-subtle"
+                        : "list-group-item d-flex justify-content-between align-items-center"}
+                  >
+                    <input 
+                      className="form-check-input me-2"
+                      type="checkbox"
+                      checked={item.isCheck}
+                      onChange={() => handleCheck(item.id)}
+                    />
+                    
+                    {item.testo}
+        
+        
+                    <button 
+                      type="button"
+                      className="btn btn-info"
+                      onClick={() => handleEditItem(item)}
+                    >modifica</button>
+                  </li>
+              </div>
+
+            )
+
           )
               
         ))}

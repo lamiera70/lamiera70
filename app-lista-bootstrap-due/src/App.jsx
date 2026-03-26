@@ -7,19 +7,21 @@ import ItemList from './components/ItemList/ItemList'
 
 export default function App() {
 
-  const [items, setItems] = useState([])
+  const [items, setItems] = useState(() =>
+  JSON.parse(localStorage.getItem('localItems')) || [])
+
   const [selectId, setSelectId] = useState(null)
   const [editText, setEditText] = useState("")
   
     
   
-  useEffect(() => {
+  // useEffect(() => {
        
-    const data = JSON.parse(localStorage.getItem('localItems')) || []
+  //   const data = JSON.parse(localStorage.getItem('localItems')) || []
        
-    setItems(data)
+  //   setItems(data)
    
-  }, [])
+  // }, [])
   
   
   useEffect(() => {
