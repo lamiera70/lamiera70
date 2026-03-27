@@ -17,13 +17,11 @@ export default function App() {
   
   const [isVisible, setIsVisible] = useState(false)
 
-  const [savedLists, setSavedLists] = useState(() =>
-    JSON.parse(localStorage.getItem('savedLists')) || []
-  )
-
-  useEffect(() => {
-    localStorage.setItem('savedLists', JSON.stringify(savedLists))
-  }, [savedLists])
+  const saveItems = [
+    {id: crypto.randomUUID(), testo: "pizza"},
+    {id: crypto.randomUUID(), testo: "pollo"},
+    {id: crypto.randomUUID(), testo: "patatine"},
+  ]
   
     
   useEffect(() => {
@@ -79,25 +77,6 @@ export default function App() {
     setIsVisible(!isVisible)
   }
 
-  function handleSaveList() {
-    const name = prompt("Nome della lista:");
-
-    if (!name) return;
-
-    const newList = {
-      id: crypto.randomUUID(),
-      name: name,
-      items: items
-    };
-
-    setSavedLists(prev => [...prev, newList]);
-  }
-
-  function handleOpenList(list) {
-    setItems(list.items);
-    setIsVisible(!isVisible)
-  }
-
 
  
 
@@ -116,7 +95,6 @@ export default function App() {
               <Dropdown
                 handleResetItems={handleResetItems}
                 handleOpenItems={handleOpenItems}
-                onSaveList={handleSaveList}
               />
             </Header>
        
@@ -148,9 +126,7 @@ export default function App() {
 
             {isVisible ? (
                <SaveList 
-                  saveItems={savedLists}
-                  
-                  onOpenList={handleOpenList}
+                  saveItems={saveItems}
                   
 
                /> 

@@ -1,4 +1,4 @@
-export default function Dropdown({handleResetItems, handleOpenItems, onSaveList}) {
+export default function Dropdown({handleResetItems, handleOpenItems}) {
   return (
     <div className="dropdown">
       <button
@@ -24,8 +24,6 @@ export default function Dropdown({handleResetItems, handleOpenItems, onSaveList}
           <button
             className="dropdown-item"
             type="button"
-            onClick={onSaveList}
-            
           >
             Salva con nome
           </button>
