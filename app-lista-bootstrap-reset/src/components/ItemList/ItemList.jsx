@@ -22,7 +22,7 @@ export default function ItemList({items, selectId, editText, setEditText, handle
                    : "list-group-item d-flex justify-content-between align-items-center"}
             >
               <input 
-                className="form-check-input me-2"
+                className="form-check-input p-2 me-2"
                 type="checkbox"
                 checked={item.isCheck}
                 onChange={() => handleCheck(item.id)}
@@ -59,7 +59,7 @@ export default function ItemList({items, selectId, editText, setEditText, handle
                         : "list-group-item d-flex align-items-center"}
                     >
                     <input 
-                      className="form-check-input me-2"
+                      className="form-check-input p-2 me-2"
                       type="checkbox"
                       checked={item.isCheck}
                       onChange={() => handleCheck(item.id)}
@@ -85,7 +85,7 @@ export default function ItemList({items, selectId, editText, setEditText, handle
                         : "list-group-item d-flex justify-content-between align-items-center"}
                   >
                     <input 
-                      className="form-check-input me-2"
+                      className="form-check-input p-2 me-2"
                       type="checkbox"
                       checked={item.isCheck}
                       onChange={() => handleCheck(item.id)}
