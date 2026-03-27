@@ -1,7 +1,7 @@
 
 import "./SaveList.css";
 
-export default function SaveList({saveItems, onOpenList}) {
+export default function SaveList({saveItems, onOpenList, onDeleteList}) {
 
   
 
@@ -37,7 +37,7 @@ export default function SaveList({saveItems, onOpenList}) {
               <button 
                 type="button"
                 className="btn btn-danger ms-2"
-                
+                onClick={() => onDeleteList(list.id)}
               >elimina</button>
                   
               

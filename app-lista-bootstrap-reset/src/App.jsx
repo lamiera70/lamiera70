@@ -14,6 +14,8 @@ export default function App() {
 
   const [selectId, setSelectId] = useState(null)
   const [editText, setEditText] = useState("")
+
+  const [currentListName, setCurrentListName] = useState("Lista della spesa");
   
   const [isVisible, setIsVisible] = useState(false)
 
@@ -71,18 +73,34 @@ export default function App() {
     const conferma = window.confirm("Vuoi cancellare la lista?");
     if (conferma) {
       setItems([]);
+      setCurrentListName("Lista della spesa")
     }
   }
 
   function handleOpenItems() {
 
-    setIsVisible(!isVisible)
+    if (savedLists.length === 0) {
+      alert('non ci sono liste salvate')
+      return
+    } 
+
+      setIsVisible(!isVisible)
+    
   }
 
   function handleSaveList() {
-    const name = prompt("Nome della lista:");
+    
+    let name = prompt("Nome della lista:");
 
     if (!name) return;
+
+    // pulizia nome
+    name = name.trim().toLowerCase();
+
+    if (name === "") {
+      alert("Inserisci un nome valido");
+      return;
+    }
 
     const newList = {
       id: crypto.randomUUID(),
@@ -91,11 +109,19 @@ export default function App() {
     };
 
     setSavedLists(prev => [...prev, newList]);
+    setCurrentListName(name);
   }
+
+  
 
   function handleOpenList(list) {
     setItems(list.items);
     setIsVisible(!isVisible)
+    setCurrentListName(list.name);
+  }
+
+  function handleDeleteList(id) {
+    setSavedLists(prev => prev.filter(list => list.id !== id));
   }
 
 
@@ -112,7 +138,7 @@ export default function App() {
 
           <div className="card p-4 shadow-sm">
 
-            <Header message={"Lista della spesa"}>
+            <Header message={currentListName}>
               <Dropdown
                 handleResetItems={handleResetItems}
                 handleOpenItems={handleOpenItems}
@@ -149,8 +175,8 @@ export default function App() {
             {isVisible ? (
                <SaveList 
                   saveItems={savedLists}
-                  
                   onOpenList={handleOpenList}
+                  onDeleteList={handleDeleteList}
                   
 
                /> 
