@@ -90,6 +90,11 @@ export default function App() {
 
   function handleSaveList() {
     
+    if (items.length === 0) {
+      alert('la lista della spesa è vuota')
+      return
+    } 
+    
     let name = prompt("Nome della lista:");
 
     if (!name) return;
