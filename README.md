@@ -107,6 +107,24 @@
 
 ---
 
+<h2 align="left">Progetti React + Node + MongoDB</h2>
+
+<ul align="left">
+  <li>
+    <a href="https://lamiera70-rubrica-link.netlify.app/" target="_blank">
+      Rubrica Telefonica Full Stack MERN
+    </a>
+  </li>
+  <li>
+    <a href="https://lamiera70-app-node-react-crud.netlify.app/" target="_blank">
+      Libreria Canzoni (App CRUD React + Node + Express)
+    </a>
+  </li>
+</ul>
+
+
+---
+
 <h2 align="left">Progetti Python & Flask</h2>
 
 <ul align="left">
@@ -118,6 +136,7 @@
 </ul>
 
 ---
+
 
 <h2 align="left">Strumenti</h2>
 
