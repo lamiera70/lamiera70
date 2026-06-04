@@ -37,14 +37,22 @@
 </p>
 
 <p align="left">
-  Attualmente sto approfondendo lo sviluppo back-end frequentando un corso di
-  <strong>Node.js, Express e MongoDB</strong>, con l’obiettivo di realizzare
-  applicazioni <strong>full-stack</strong> sempre più complete e strutturate.
+  Ho recentemente completato un corso di{" "}
+  <strong>Node.js, Express e MongoDB</strong>, approfondendo lo sviluppo
+  back-end e la realizzazione di applicazioni <strong>full-stack</strong>
 </p>
 
 <p align="left">
-  Affronto lo sviluppo software con un approccio pratico, curiosità e una forte
-  attenzione all’apprendimento continuo e alla risoluzione di problemi reali.
+  Ho recentemente completato un corso di{" "}
+  <strong>Node.js, Express e MongoDB</strong>, approfondendo lo sviluppo
+  back-end e la realizzazione di applicazioni <strong>full-stack</strong>
+</p>
+
+<p align="left">
+  Durante il percorso ho sviluppato diversi progetti pratici, tra cui una{" "}
+  <strong>rubrica MERN (MongoDB, Express, React e Node.js)</strong> con
+  autenticazione utenti, ruoli amministratore, dashboard gestionale,
+  gestione password e database MongoDB.
 </p>
 
 ---
