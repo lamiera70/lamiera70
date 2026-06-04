@@ -37,19 +37,14 @@
 </p>
 
 <p align="left">
-  Ho recentemente completato un corso di{" "}
+  Ho recentemente completato un corso di
   <strong>Node.js, Express e MongoDB</strong>, approfondendo lo sviluppo
   back-end e la realizzazione di applicazioni <strong>full-stack</strong>
 </p>
 
-<p align="left">
-  Ho recentemente completato un corso di{" "}
-  <strong>Node.js, Express e MongoDB</strong>, approfondendo lo sviluppo
-  back-end e la realizzazione di applicazioni <strong>full-stack</strong>
-</p>
 
 <p align="left">
-  Durante il percorso ho sviluppato diversi progetti pratici, tra cui una{" "}
+  Durante il percorso ho sviluppato diversi progetti pratici, tra cui una
   <strong>rubrica MERN (MongoDB, Express, React e Node.js)</strong> con
   autenticazione utenti, ruoli amministratore, dashboard gestionale,
   gestione password e database MongoDB.
