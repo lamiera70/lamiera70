@@ -74,11 +74,6 @@
 
 <ul align="left">
   <li>
-    <a href="https://lamiera70-app-scatolati.netlify.app/" target="_blank">
-      App Scatolati
-    </a>
-  </li>
-  <li>
     <a href="https://lamiera70-app-flexbox.netlify.app/" target="_blank">
       App Flexbox
     </a>
@@ -110,6 +105,11 @@
 <h2 align="left">Progetti React + Node + MongoDB</h2>
 
 <ul align="left">
+  <li>
+    <a href="https://lamiera70-app-scatolati-mongodb-gatta.netlify.app/" target="_blank">
+      APP Scatolati 2.0 Full Stack MERN
+    </a>
+  </li>
   <li>
     <a href="https://lamiera70-rubrica-link.netlify.app/" target="_blank">
       Rubrica Telefonica Full Stack MERN
